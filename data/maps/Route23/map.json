@@ -1,0 +1,49 @@
+{
+  "id": "MAP_ROUTE23",
+  "name": "Route23",
+  "layout": "LAYOUT_ROUTE23",
+  "music": "MUS_PETALBURG",
+  "region_map_section": "MAPSEC_ROUTE_23",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_OCEAN_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE22",
+      "offset": 186,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_CAMBRIDGE",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE18",
+      "offset": 36,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE24",
+      "offset": 17,
+      "direction": "left"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

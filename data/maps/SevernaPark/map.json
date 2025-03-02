@@ -1,0 +1,39 @@
+{
+  "id": "MAP_SEVERNA_PARK",
+  "name": "SevernaPark",
+  "layout": "LAYOUT_SEVERNA_PARK",
+  "music": "MUS_PETALBURG",
+  "region_map_section": "MAPSEC_SEVERNA_PARK",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE12",
+      "offset": 6,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE3",
+      "offset": 6,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

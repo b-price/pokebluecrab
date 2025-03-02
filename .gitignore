@@ -45,3 +45,5 @@ tools/trainerproc/trainerproc
 *.smol
 *.fastSmol
 *.smolTM
+/temp_tilesets
+Stitch_From_Route80226.png

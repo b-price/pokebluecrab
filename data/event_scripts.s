@@ -1152,3 +1152,103 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/follower.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/Route1/scripts.inc"
+
+	.include "data/maps/Arnold/scripts.inc"
+
+	.include "data/maps/Annapolis/scripts.inc"
+
+	.include "data/maps/Annapolis2/scripts.inc"
+
+	.include "data/maps/Oakland/scripts.inc"
+
+	.include "data/maps/SevernaPark/scripts.inc"
+
+	.include "data/maps/Route12/scripts.inc"
+
+	.include "data/maps/Route3/scripts.inc"
+
+	.include "data/maps/Baltimore/scripts.inc"
+
+	.include "data/maps/Route4/scripts.inc"
+
+	.include "data/maps/Route5/scripts.inc"
+
+	.include "data/maps/HavreDeGrace/scripts.inc"
+
+	.include "data/maps/Route6/scripts.inc"
+
+	.include "data/maps/Route7/scripts.inc"
+
+	.include "data/maps/KentIsland/scripts.inc"
+
+	.include "data/maps/Route8/scripts.inc"
+
+	.include "data/maps/Route9/scripts.inc"
+
+	.include "data/maps/Route10/scripts.inc"
+
+	.include "data/maps/Westminster/scripts.inc"
+
+	.include "data/maps/Route9_2/scripts.inc"
+
+	.include "data/maps/Frederick/scripts.inc"
+
+	.include "data/maps/Route11/scripts.inc"
+
+	.include "data/maps/Route12_/scripts.inc"
+
+	.include "data/maps/Hagerstown/scripts.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"
+
+	.include "data/maps/Route13/scripts.inc"
+
+	.include "data/maps/Route14/scripts.inc"
+
+	.include "data/maps/Cumberland/scripts.inc"
+
+	.include "data/maps/Route15/scripts.inc"
+
+	.include "data/maps/Route16/scripts.inc"
+
+	.include "data/maps/Rockville/scripts.inc"
+
+	.include "data/maps/Route17/scripts.inc"
+
+	.include "data/maps/Route28/scripts.inc"
+
+	.include "data/maps/Route25/scripts.inc"
+
+	.include "data/maps/Route26/scripts.inc"
+
+	.include "data/maps/LaPlata/scripts.inc"
+
+	.include "data/maps/Route27/scripts.inc"
+
+	.include "data/maps/Cambridge/scripts.inc"
+
+	.include "data/maps/Route18/scripts.inc"
+
+	.include "data/maps/Route19/scripts.inc"
+
+	.include "data/maps/Salisbury/scripts.inc"
+
+	.include "data/maps/Route20/scripts.inc"
+
+	.include "data/maps/OceanCity/scripts.inc"
+
+	.include "data/maps/Route21/scripts.inc"
+
+	.include "data/maps/Route22/scripts.inc"
+
+	.include "data/maps/Route23/scripts.inc"
+
+	.include "data/maps/Route24/scripts.inc"
+
+	.include "data/maps/DC/scripts.inc"
+
+	.include "data/maps/StMichaels/scripts.inc"
+
+	.include "data/maps/Route29/scripts.inc"

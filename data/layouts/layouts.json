@@ -2417,7 +2417,7 @@
       "width": 58,
       "height": 26,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "0",
+      "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/UnusedOutdoorArea/border.bin",
       "blockdata_filepath": "data/layouts/UnusedOutdoorArea/map.bin"
     },
@@ -4410,6 +4410,506 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE1",
+      "name": "Route1_Layout",
+      "width": 40,
+      "height": 38,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Arnold",
+      "border_filepath": "data/layouts/Route1/border.bin",
+      "blockdata_filepath": "data/layouts/Route1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ARNOLD",
+      "name": "Arnold_Layout",
+      "width": 40,
+      "height": 14,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Arnold",
+      "border_filepath": "data/layouts/Arnold/border.bin",
+      "blockdata_filepath": "data/layouts/Arnold/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS",
+      "name": "Annapolis_Layout",
+      "width": 40,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Annapolis",
+      "border_filepath": "data/layouts/Annapolis/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS2",
+      "name": "Annapolis2_Layout",
+      "width": 60,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/Annapolis2/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OAKLAND",
+      "name": "Oakland_Layout",
+      "width": 20,
+      "height": 18,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Oakland",
+      "border_filepath": "data/layouts/Oakland/border.bin",
+      "blockdata_filepath": "data/layouts/Oakland/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEVERNA_PARK",
+      "name": "SevernaPark_Layout",
+      "width": 32,
+      "height": 12,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Arnold",
+      "border_filepath": "data/layouts/SevernaPark/border.bin",
+      "blockdata_filepath": "data/layouts/SevernaPark/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE12",
+      "name": "Route12_Layout",
+      "width": 36,
+      "height": 16,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Arnold",
+      "border_filepath": "data/layouts/Route12/border.bin",
+      "blockdata_filepath": "data/layouts/Route12/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE3",
+      "name": "Route3_Layout",
+      "width": 36,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Arnold",
+      "border_filepath": "data/layouts/Route3/border.bin",
+      "blockdata_filepath": "data/layouts/Route3/map.bin"
+    },
+    {
+      "id": "LAYOUT_BALTIMORE",
+      "name": "Baltimore_Layout",
+      "width": 64,
+      "height": 52,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Baltimore",
+      "border_filepath": "data/layouts/Baltimore/border.bin",
+      "blockdata_filepath": "data/layouts/Baltimore/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE4",
+      "name": "Route4_Layout",
+      "width": 116,
+      "height": 54,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Baltimore",
+      "border_filepath": "data/layouts/Route4/border.bin",
+      "blockdata_filepath": "data/layouts/Route4/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE5",
+      "name": "Route5_Layout",
+      "width": 24,
+      "height": 62,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Annapolis",
+      "border_filepath": "data/layouts/Route5/border.bin",
+      "blockdata_filepath": "data/layouts/Route5/map.bin"
+    },
+    {
+      "id": "LAYOUT_HAVRE_DE_GRACE",
+      "name": "HavreDeGrace_Layout",
+      "width": 24,
+      "height": 26,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Annapolis",
+      "border_filepath": "data/layouts/HavreDeGrace/border.bin",
+      "blockdata_filepath": "data/layouts/HavreDeGrace/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE6",
+      "name": "Route6_Layout",
+      "width": 20,
+      "height": 199,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Annapolis",
+      "border_filepath": "data/layouts/Route6/border.bin",
+      "blockdata_filepath": "data/layouts/Route6/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE7",
+      "name": "Route7_Layout",
+      "width": 32,
+      "height": 80,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_KentIsland",
+      "border_filepath": "data/layouts/Route7/border.bin",
+      "blockdata_filepath": "data/layouts/Route7/map.bin"
+    },
+    {
+      "id": "LAYOUT_KENT_ISLAND",
+      "name": "KentIsland_Layout",
+      "width": 32,
+      "height": 44,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_KentIsland",
+      "border_filepath": "data/layouts/KentIsland/border.bin",
+      "blockdata_filepath": "data/layouts/KentIsland/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE8",
+      "name": "Route8_Layout",
+      "width": 100,
+      "height": 72,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Annapolis",
+      "border_filepath": "data/layouts/Route8/border.bin",
+      "blockdata_filepath": "data/layouts/Route8/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE9",
+      "name": "Route9_Layout",
+      "width": 72,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Baltimore",
+      "border_filepath": "data/layouts/Route9/border.bin",
+      "blockdata_filepath": "data/layouts/Route9/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE10",
+      "name": "Route10_Layout",
+      "width": 16,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Westminster",
+      "border_filepath": "data/layouts/Route10/border.bin",
+      "blockdata_filepath": "data/layouts/Route10/map.bin"
+    },
+    {
+      "id": "LAYOUT_WESTMINSTER",
+      "name": "Westminster_Layout",
+      "width": 16,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Westminster",
+      "border_filepath": "data/layouts/Westminster/border.bin",
+      "blockdata_filepath": "data/layouts/Westminster/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE9_2",
+      "name": "Route9_2_Layout",
+      "width": 54,
+      "height": 28,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Frederick",
+      "border_filepath": "data/layouts/Route9_2/border.bin",
+      "blockdata_filepath": "data/layouts/Route9_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_FREDERICK",
+      "name": "Frederick_Layout",
+      "width": 44,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Frederick",
+      "border_filepath": "data/layouts/Frederick/border.bin",
+      "blockdata_filepath": "data/layouts/Frederick/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE11",
+      "name": "Route11_Layout",
+      "width": 20,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Frederick",
+      "border_filepath": "data/layouts/Route11/border.bin",
+      "blockdata_filepath": "data/layouts/Route11/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE12_",
+      "name": "Route12__Layout",
+      "width": 52,
+      "height": 16,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cumberland",
+      "border_filepath": "data/layouts/Route12_/border.bin",
+      "blockdata_filepath": "data/layouts/Route12_/map.bin"
+    },
+    {
+      "id": "LAYOUT_HAGERSTOWN",
+      "name": "Hagerstown_Layout",
+      "width": 32,
+      "height": 16,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cumberland",
+      "border_filepath": "data/layouts/Hagerstown/border.bin",
+      "blockdata_filepath": "data/layouts/Hagerstown/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_MAP1",
+      "name": "NewMap1_Layout",
+      "width": 90,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rockville",
+      "border_filepath": "data/layouts/NewMap1/border.bin",
+      "blockdata_filepath": "data/layouts/NewMap1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE13",
+      "name": "Route13_Layout",
+      "width": 48,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cumberland",
+      "border_filepath": "data/layouts/Route13/border.bin",
+      "blockdata_filepath": "data/layouts/Route13/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE14",
+      "name": "Route14_Layout",
+      "width": 30,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cumberland",
+      "border_filepath": "data/layouts/Route14/border.bin",
+      "blockdata_filepath": "data/layouts/Route14/map.bin"
+    },
+    {
+      "id": "LAYOUT_CUMBERLAND",
+      "name": "Cumberland_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cumberland",
+      "border_filepath": "data/layouts/Cumberland/border.bin",
+      "blockdata_filepath": "data/layouts/Cumberland/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE15",
+      "name": "Route15_Layout",
+      "width": 20,
+      "height": 52,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Oakland",
+      "border_filepath": "data/layouts/Route15/border.bin",
+      "blockdata_filepath": "data/layouts/Route15/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE16",
+      "name": "Route16_Layout",
+      "width": 28,
+      "height": 94,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rockville",
+      "border_filepath": "data/layouts/Route16/border.bin",
+      "blockdata_filepath": "data/layouts/Route16/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKVILLE",
+      "name": "Rockville_Layout",
+      "width": 24,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rockville",
+      "border_filepath": "data/layouts/Rockville/border.bin",
+      "blockdata_filepath": "data/layouts/Rockville/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE17",
+      "name": "Route17_Layout",
+      "width": 20,
+      "height": 112,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rockville",
+      "border_filepath": "data/layouts/Route17/border.bin",
+      "blockdata_filepath": "data/layouts/Route17/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE28",
+      "name": "Route28_Layout",
+      "width": 108,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Annapolis",
+      "border_filepath": "data/layouts/Route28/border.bin",
+      "blockdata_filepath": "data/layouts/Route28/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE25",
+      "name": "Route25_Layout",
+      "width": 36,
+      "height": 104,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Annapolis",
+      "border_filepath": "data/layouts/Route25/border.bin",
+      "blockdata_filepath": "data/layouts/Route25/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE26",
+      "name": "Route26_Layout",
+      "width": 84,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_LaPlata",
+      "border_filepath": "data/layouts/Route26/border.bin",
+      "blockdata_filepath": "data/layouts/Route26/map.bin"
+    },
+    {
+      "id": "LAYOUT_LA_PLATA",
+      "name": "LaPlata_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_LaPlata",
+      "border_filepath": "data/layouts/LaPlata/border.bin",
+      "blockdata_filepath": "data/layouts/LaPlata/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE27",
+      "name": "Route27_Layout",
+      "width": 20,
+      "height": 66,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_LaPlata",
+      "border_filepath": "data/layouts/Route27/border.bin",
+      "blockdata_filepath": "data/layouts/Route27/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAMBRIDGE",
+      "name": "Cambridge_Layout",
+      "width": 40,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cambridge",
+      "border_filepath": "data/layouts/Cambridge/border.bin",
+      "blockdata_filepath": "data/layouts/Cambridge/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE18",
+      "name": "Route18_Layout",
+      "width": 40,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cambridge",
+      "border_filepath": "data/layouts/Route18/border.bin",
+      "blockdata_filepath": "data/layouts/Route18/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE19",
+      "name": "Route19_Layout",
+      "width": 48,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Salisbury",
+      "border_filepath": "data/layouts/Route19/border.bin",
+      "blockdata_filepath": "data/layouts/Route19/map.bin"
+    },
+    {
+      "id": "LAYOUT_SALISBURY",
+      "name": "Salisbury_Layout",
+      "width": 24,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Salisbury",
+      "border_filepath": "data/layouts/Salisbury/border.bin",
+      "blockdata_filepath": "data/layouts/Salisbury/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE20",
+      "name": "Route20_Layout",
+      "width": 32,
+      "height": 34,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Salisbury",
+      "border_filepath": "data/layouts/Route20/border.bin",
+      "blockdata_filepath": "data/layouts/Route20/map.bin"
+    },
+    {
+      "id": "LAYOUT_OCEAN_CITY",
+      "name": "OceanCity_Layout",
+      "width": 48,
+      "height": 72,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_OceanCity",
+      "border_filepath": "data/layouts/OceanCity/border.bin",
+      "blockdata_filepath": "data/layouts/OceanCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE21",
+      "name": "Route21_Layout",
+      "width": 56,
+      "height": 128,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Route21/border.bin",
+      "blockdata_filepath": "data/layouts/Route21/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE22",
+      "name": "Route22_Layout",
+      "width": 120,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Route22/border.bin",
+      "blockdata_filepath": "data/layouts/Route22/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE23",
+      "name": "Route23_Layout",
+      "width": 20,
+      "height": 210,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cambridge",
+      "border_filepath": "data/layouts/Route23/border.bin",
+      "blockdata_filepath": "data/layouts/Route23/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE24",
+      "name": "Route24_Layout",
+      "width": 104,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Route24/border.bin",
+      "blockdata_filepath": "data/layouts/Route24/map.bin"
+    },
+    {
+      "id": "LAYOUT_DC",
+      "name": "DC_Layout",
+      "width": 36,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/DC/border.bin",
+      "blockdata_filepath": "data/layouts/DC/map.bin"
+    },
+    {
+      "id": "LAYOUT_ST_MICHAELS",
+      "name": "StMichaels_Layout",
+      "width": 32,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_KentIsland",
+      "border_filepath": "data/layouts/StMichaels/border.bin",
+      "blockdata_filepath": "data/layouts/StMichaels/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE29",
+      "name": "Route29_Layout",
+      "width": 72,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Baltimore",
+      "border_filepath": "data/layouts/Route29/border.bin",
+      "blockdata_filepath": "data/layouts/Route29/map.bin"
     }
   ]
 }
