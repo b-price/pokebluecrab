@@ -14,26 +14,260 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE1",
-      "offset": 0,
+      "map": "MAP_ROUTE2",
+      "offset": -4,
       "direction": "down"
     },
     {
-      "map": "MAP_ROUTE12",
+      "map": "MAP_ROUTE1",
       "offset": 0,
       "direction": "up"
     }
   ],
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 17,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 2,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Arnold_EventScript_Aide",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_AZURILL",
+      "x": 20,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Arnold_EventScript_Azurill",
+      "flag": "FLAG_HIDE_ARNOLD_AZURILL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
+      "x": 18,
+      "y": 0,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Arnold_EventScript_Woman",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
+      "x": 30,
+      "y": 0,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Arnold_EventScript_Twin",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
+      "x": 28,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_ARNOLD_BIRCH"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MOM",
+      "x": 16,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Arnold_EventScript_Mom",
+      "flag": "FLAG_HIDE_ARNOLD_MOM_OUTSIDE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+      "x": 21,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_ARNOLD_RIVAL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_TRUCK",
+      "x": 15,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_ARNOLD_TRUCK"
+    }
   ],
   "warp_events": [
-
+    {
+      "x": 26,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_ARNOLD_LAB",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ARNOLD_PLAYERS_HOUSE_1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_ARNOLD_RIVALS_HOUSE_1F",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_AZURILL_OBSERVING_STATE",
+      "var_value": "0",
+      "script": "Arnold_EventScript_BlockedPath"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_AZURILL_OBSERVING_STATE",
+      "var_value": "0",
+      "script": "Arnold_EventScript_BlockedPath"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_ARNOLD_STATE",
+      "var_value": "0",
+      "script": "Arnold_EventScript_NeedPokemonTriggerLeft"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_ARNOLD_STATE",
+      "var_value": "0",
+      "script": "Arnold_EventScript_NeedPokemonTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 0,
+      "elevation": 0,
+      "var": "VAR_ARNOLD_STATE",
+      "var_value": "1",
+      "script": "Arnold_EventScript_GoSaveBirchTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_ARNOLD_STATE",
+      "var_value": "3",
+      "script": "Arnold_EventScript_GiveRunningShoesTrigger4"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_ARNOLD_STATE",
+      "var_value": "3",
+      "script": "Arnold_EventScript_GiveRunningShoesTrigger5"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_ARNOLD_STATE",
+      "var_value": "3",
+      "script": "Arnold_EventScript_GiveRunningShoesTrigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_ARNOLD_STATE",
+      "var_value": "3",
+      "script": "Arnold_EventScript_GiveRunningShoesTrigger3"
+    }
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 4,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Arnold_EventScript_PlayersHouseSign"
+    },
+    {
+      "type": "sign",
+      "x": 21,
+      "y": 4,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Arnold_EventScript_BirchsHouseSign"
+    },
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Arnold_EventScript_TownSign"
+    },
+    {
+      "type": "sign",
+      "x": 21,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Arnold_EventScript_LabSign"
+    }
   ]
 }

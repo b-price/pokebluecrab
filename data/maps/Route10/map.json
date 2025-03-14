@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_ROUTE9",
-      "offset": 0,
+      "offset": 6,
       "direction": "down"
     },
     {
       "map": "MAP_WESTMINSTER",
-      "offset": 0,
+      "offset": 6,
       "direction": "up"
     }
   ],
@@ -28,7 +28,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 15,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE9",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 14,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE9",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 12,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE9_2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE9_2",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_ROUTE19",
-      "offset": 16,
+      "offset": 14,
       "direction": "right"
     },
     {
@@ -33,7 +33,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 31,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE19",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 32,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE19",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

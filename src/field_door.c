@@ -131,6 +131,22 @@ static const u8 sDoorAnimTiles_TrainerHillLobbyElevator[] = INCBIN_U8("graphics/
 static const u16 sDoorNullPalette48[16] = {};
 static const u8 sDoorAnimTiles_TrainerHillRoofElevator[] = INCBIN_U8("graphics/door_anims/trainer_hill_roof_elevator.4bpp");
 static const u16 sDoorNullPalette49[16] = {};
+static const u8 sDoorAnimTiles_MarleyStation[] = INCBIN_U8("graphics/door_anims/marley_station.4bpp");
+static const u16 sDoorNullPalette50[16] = {};
+static const u8 sDoorAnimTiles_BaltimoreOrange[] = INCBIN_U8("graphics/door_anims/baltimore_orange.4bpp");
+static const u16 sDoorNullPalette51[16] = {};
+static const u8 sDoorAnimTiles_BaltimoreTower[] = INCBIN_U8("graphics/door_anims/baltimore_tower.4bpp");
+static const u16 sDoorNullPalette52[16] = {};
+static const u8 sDoorAnimTiles_KentIslandReverse[] = INCBIN_U8("graphics/door_anims/kentisland_reverse.4bpp");
+static const u16 sDoorNullPalette53[16] = {};
+static const u8 sDoorAnimTiles_CumberlandPlain[] = INCBIN_U8("graphics/door_anims/cumberland_plain.4bpp");
+static const u16 sDoorNullPalette54[16] = {};
+static const u8 sDoorAnimTiles_CumberlandReverse[] = INCBIN_U8("graphics/door_anims/cumberland_reverse.4bpp");
+static const u16 sDoorNullPalette55[16] = {};
+static const u8 sDoorAnimTiles_RockvilleSliding[] = INCBIN_U8("graphics/door_anims/rockville_sliding.4bpp");
+static const u16 sDoorNullPalette56[16] = {};
+static const u8 sDoorAnimTiles_BaltimorePurple[] = INCBIN_U8("graphics/door_anims/baltimore_purple.4bpp");
+static const u16 sDoorNullPalette57[16] = {};
 
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
@@ -219,6 +235,17 @@ static const u8 sDoorAnimPalettes_BattleDomePreBattleRoom[] = {9, 9, 7, 7, 7, 7,
 static const u8 sDoorAnimPalettes_BattleTentInterior[] = {9, 9, 9, 9, 9, 9, 9, 9};
 static const u8 sDoorAnimPalettes_TrainerHillLobbyElevator[] = {7, 7, 7, 7, 7, 7, 7, 7};
 static const u8 sDoorAnimPalettes_TrainerHillRoofElevator[] = {9, 9, 7, 7, 7, 7, 7, 7};
+static const u8 sDoorAnimPalettes_MarleyStation[] = {8, 8, 5, 5, 5, 5, 5, 5};
+static const u8 sDoorAnimPalettes_AnnapolisBrown[] = {9, 9, 9, 9, 9, 9, 9, 9};
+static const u8 sDoorAnimPalettes_HavreDeGrace[] = {8, 8, 8, 8, 8, 8, 8, 8};
+static const u8 sDoorAnimPalettes_BaltimoreOrange[] = {0, 0, 9, 9, 9, 9, 9, 9};
+static const u8 sDoorAnimPalettes_BaltimorePurple[] = {6, 6, 6, 6, 6, 6, 6, 6};
+static const u8 sDoorAnimPalettes_BaltimoreTower[] = {0, 0, 5, 5, 5, 5, 5, 5};
+static const u8 sDoorAnimPalettes_FrederickBlue[] = {12, 12, 12, 12, 5, 5, 5, 5};
+static const u8 sDoorAnimPalettes_FrederickPurple[] = {6, 6, 6, 6, 6, 6, 6, 6};
+static const u8 sDoorAnimPalettes_Oakland[] = {7, 7, 7, 7, 7, 7, 7, 7};
+static const u8 sDoorAnimPalettes_Rockville[] = {12, 12, 12, 12, 5, 5, 5, 5};
+static const u8 sDoorAnimPalettes_LaPlata[] = {7, 7, 8, 8, 8, 8, 8, 8};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
@@ -277,6 +304,36 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_BattleTent_Door,                              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleTentInterior, sDoorAnimPalettes_BattleTentInterior},
     {METATILE_TrainerHill_Door_Elevator_Lobby,              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillLobbyElevator, sDoorAnimPalettes_TrainerHillLobbyElevator},
     {METATILE_TrainerHill_Door_Elevator_Roof,               DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillRoofElevator, sDoorAnimPalettes_TrainerHillRoofElevator},
+    {METATILE_Arnold_Door_Arnold,                           DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Littleroot, sDoorAnimPalettes_Littleroot},
+    {METATILE_Arnold_Door_ArnoldLab,                        DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_BirchsLab, sDoorAnimPalettes_BirchsLab},
+    {METATILE_Arnold_Door_SevernaPark,                      DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Oldale, sDoorAnimPalettes_Oldale},
+    {METATILE_Arnold_Door_MarleyStation,                    DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_MarleyStation, sDoorAnimPalettes_MarleyStation},
+    {METATILE_Annapolis_Door_Tan,                           DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_RustboroTan, sDoorAnimPalettes_RustboroTan},
+    {METATILE_Annapolis_Door_Brown,                         DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_RustboroGray, sDoorAnimPalettes_AnnapolisBrown},
+    {METATILE_Annapolis_Door_HavreDeGrace,                  DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_General, sDoorAnimPalettes_HavreDeGrace},
+    {METATILE_Baltimore_Door_Orange,                        DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_BaltimoreOrange, sDoorAnimPalettes_BaltimoreOrange},
+    {METATILE_Baltimore_Door_Purple,                        DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_BaltimorePurple, sDoorAnimPalettes_BaltimorePurple},
+    {METATILE_Baltimore_Door_Aquarium,                      DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleDome, sDoorAnimPalettes_BattleDome},
+    {METATILE_Baltimore_Door_Tower,                         DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BaltimoreTower, sDoorAnimPalettes_BaltimoreTower},
+    {METATILE_KentIsland_Door_wood,                         DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Dewford, sDoorAnimPalettes_Dewford},
+    {METATILE_KentIsland_Door_Reverse,                      DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_KentIslandReverse, sDoorAnimPalettes_Dewford},
+    {METATILE_KentIsland_Door_Floating,                     DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Pacifidlog, sDoorAnimPalettes_Pacifidlog},
+    {METATILE_Frederick_Door_Blue,                          DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Lilycove, sDoorAnimPalettes_FrederickBlue},
+    {METATILE_Frederick_Door_Purple,                        DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Lilycove, sDoorAnimPalettes_FrederickPurple},
+    {METATILE_Cumberland_Door_Hagerstown,                   DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_FallarborLightRoof, sDoorAnimPalettes_FallarborLightRoof},
+    {METATILE_Cumberland_Door_Gym,                          DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_Gym, sDoorAnimPalettes_Gym},
+    {METATILE_Cumberland_Door_Plain,                        DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_CumberlandPlain, sDoorAnimPalettes_Mossdeep},
+    {METATILE_Cumberland_Door_Reverse,                      DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_CumberlandReverse, sDoorAnimPalettes_Mossdeep},
+    {METATILE_Cumberland_Door_Window,                       DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Mossdeep, sDoorAnimPalettes_Mossdeep},
+    {METATILE_Oakland_Door_Normal,                          DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Verdanturf, sDoorAnimPalettes_Oakland},
+    {METATILE_Rockville_Door_Sliding,                       DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_Gym, sDoorAnimPalettes_Gym},
+    {METATILE_Rockville_Door_Tower,                         DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleTowerOld, sDoorAnimPalettes_BattleTowerOld},
+    {METATILE_Rockville_Door_DeptStore,                     DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_LilycoveDeptStore, sDoorAnimPalettes_LilycoveDeptStore},
+    {METATILE_Cambridge_Door_Wood,                          DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Dewford, sDoorAnimPalettes_Dewford},
+    {METATILE_Salisbury_Door_Normal,                        DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_LilycoveWooden, sDoorAnimPalettes_LilycoveWooden},
+    {METATILE_Salisbury_Door_SafariZone,                    DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SafariZone, sDoorAnimPalettes_SafariZone},
+    {METATILE_OceanCity_Door_Sliding,                       DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_LilycoveDeptStore, sDoorAnimPalettes_LilycoveDeptStore},
+    {METATILE_LaPlata_Door_Normal,                          DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Lilycove, sDoorAnimPalettes_LaPlata},
     {},
 };
 

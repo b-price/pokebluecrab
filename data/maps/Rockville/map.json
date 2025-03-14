@@ -28,7 +28,55 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 3,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKVILLE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKVILLE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKVILLE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKVILLE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKVILLE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKVILLE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKVILLE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

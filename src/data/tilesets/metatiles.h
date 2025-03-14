@@ -249,3 +249,6 @@ const u16 gMetatileAttributes_Rockville[] = INCBIN_U16("data/tilesets/secondary/
 
 const u16 gMetatiles_Westminster[] = INCBIN_U16("data/tilesets/secondary/westminster/metatiles.bin");
 const u16 gMetatileAttributes_Westminster[] = INCBIN_U16("data/tilesets/secondary/westminster/metatile_attributes.bin");
+
+const u16 gMetatiles_DC[] = INCBIN_U16("data/tilesets/secondary/dc/metatiles.bin");
+const u16 gMetatileAttributes_DC[] = INCBIN_U16("data/tilesets/secondary/dc/metatile_attributes.bin");

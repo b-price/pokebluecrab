@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_FREDERICK",
-      "offset": -8,
+      "offset": -6,
       "direction": "down"
     },
     {
-      "map": "MAP_ROUTE12_",
-      "offset": 0,
+      "map": "MAP_ROUTE12",
+      "offset": -2,
       "direction": "left"
     }
   ],

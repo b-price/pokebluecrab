@@ -95,11 +95,11 @@
 #define VAR_POKELOT_RND1                                 0x404B
 #define VAR_POKELOT_RND2                                 0x404C
 #define VAR_POKELOT_PRIZE_PLACE                          0x404D
-#define VAR_UNUSED_0x404E                                0x404E // Unused Var
+#define VAR_ARNOLD_STATE                                 0x404E // PBC
 #define VAR_LOTAD_SIZE_RECORD                            0x404F
 #define VAR_LITTLEROOT_TOWN_STATE                        0x4050
 #define VAR_OLDALE_TOWN_STATE                            0x4051
-#define VAR_DEWFORD_TOWN_STATE                           0x4052 // Unused Var
+#define VAR_SEVERNA_PARK_STATE                           0x4052 // PBC
 #define VAR_LAVARIDGE_TOWN_STATE                         0x4053
 #define VAR_CURRENT_SECRET_BASE                          0x4054 // was probably allocated for VAR_FALLARBOR_TOWN_STATE at one point
 #define VAR_VERDANTURF_TOWN_STATE                        0x4055 // Unused Var
@@ -114,8 +114,8 @@
 #define VAR_SOOTOPOLIS_CITY_STATE                        0x405E
 #define VAR_EVER_GRANDE_CITY_STATE                       0x405F // Unused Var
 #define VAR_ROUTE101_STATE                               0x4060
-#define VAR_ROUTE102_STATE                               0x4061 // Unused Var
-#define VAR_ROUTE103_STATE                               0x4062 // Unused Var
+#define VAR_ROUTE1_STATE                                 0x4061 // PBC
+#define VAR_ROUTE3_STATE                                 0x4062 // PBC
 #define VAR_ROUTE104_STATE                               0x4063
 #define VAR_ROUTE105_STATE                               0x4064 // Unused Var
 #define VAR_ROUTE106_STATE                               0x4065 // Unused Var
@@ -148,7 +148,7 @@
 #define VAR_ROUTE133_STATE                               0x4080 // Unused Var
 #define VAR_ROUTE134_STATE                               0x4081 // Unused Var
 #define VAR_LITTLEROOT_HOUSES_STATE_MAY                  0x4082
-#define VAR_UNUSED_0x4083                                0x4083 // Unused Var
+#define VAR_ARNOLD_HOUSES_STATE                                0x4083 // PBC
 #define VAR_BIRCH_LAB_STATE                              0x4084
 #define VAR_PETALBURG_GYM_STATE                          0x4085 // 0-1: Wally tutorial, 2-6: 0-4 badges, 7: Defeated Norman, 8: Rematch Norman
 #define VAR_CONTEST_HALL_STATE                           0x4086
@@ -156,13 +156,13 @@
 #define VAR_CONTEST_TYPE                                 0x4088
 #define VAR_SECRET_BASE_INITIALIZED                      0x4089
 #define VAR_CONTEST_PRIZE_PICKUP                         0x408A
-#define VAR_UNUSED_0x408B                                0x408B // Unused Var
+#define VAR_ARNOLD_RIVAL_STATE                                0x408B // PBC
 #define VAR_LITTLEROOT_HOUSES_STATE_BRENDAN              0x408C
 #define VAR_LITTLEROOT_RIVAL_STATE                       0x408D
 #define VAR_BOARD_BRINEY_BOAT_STATE                      0x408E
 #define VAR_DEVON_CORP_3F_STATE                          0x408F
 #define VAR_BRINEY_HOUSE_STATE                           0x4090
-#define VAR_UNUSED_0x4091                                0x4091 // Unused Var
+#define VAR_ARNOLD_INTRO_STATE                               0x4091 // PBC
 #define VAR_LITTLEROOT_INTRO_STATE                       0x4092
 #define VAR_MAUVILLE_GYM_STATE                           0x4093
 #define VAR_LILYCOVE_MUSEUM_2F_STATE                     0x4094
@@ -172,13 +172,13 @@
 #define VAR_PETALBURG_WOODS_STATE                        0x4098
 #define VAR_LILYCOVE_CONTEST_LOBBY_STATE                 0x4099
 #define VAR_RUSTURF_TUNNEL_STATE                         0x409A
-#define VAR_UNUSED_0x409B                                0x409B // Unused Var
+#define VAR_ARNOLD_HOUSES_STATE_BRENDAN                               0x409B // PBC
 #define VAR_ELITE_4_STATE                                0x409C
-#define VAR_UNUSED_0x409D                                0x409D // Unused Var
+#define VAR_SEVERNA_PARK_RIVAL_STATE                               0x409D // PBC
 #define VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE      0x409E
 #define VAR_MOSSDEEP_SPACE_CENTER_STATE                  0x409F
 #define VAR_SLATEPORT_HARBOR_STATE                       0x40A0
-#define VAR_UNUSED_0x40A1                                0x40A1 // Unused var
+#define VAR_AZURILL_OBSERVING_STATE                               0x40A1 // Unused var
 #define VAR_SEAFLOOR_CAVERN_STATE                        0x40A2
 #define VAR_CABLE_CAR_STATION_STATE                      0x40A3
 #define VAR_SAFARI_ZONE_STATE                            0x40A4  // 0: In or out of SZ, 1: Player exiting SZ, 2: Player entering SZ

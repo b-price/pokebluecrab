@@ -16,21 +16,23 @@ InsideOfTruck_OnResume:
 InsideOfTruck_EventScript_SetIntroFlags::
 	lockall
 	setflag FLAG_HIDE_MAP_NAME_POPUP
-	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, InsideOfTruck_EventScript_SetIntroFlagsMale
-	goto_if_eq VAR_RESULT, FEMALE, InsideOfTruck_EventScript_SetIntroFlagsFemale
+	setrespawn HEAL_LOCATION_ARNOLD_PLAYERS_HOUSE_2F
+    setvar VAR_ARNOLD_INTRO_STATE, 1
+    setvar VAR_ARNOLD_HOUSES_STATE, 1
+    setdynamicwarp MAP_ARNOLD, 16, 8
+    releaseall
 	end
 
 InsideOfTruck_EventScript_SetIntroFlagsMale::
-	setrespawn HEAL_LOCATION_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F
-	setvar VAR_LITTLEROOT_INTRO_STATE, 1
+	setrespawn HEAL_LOCATION_ARNOLD_PLAYERS_HOUSE_2F
+	setvar VAR_ARNOLD_INTRO_STATE, 1
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
-	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 1
-	setdynamicwarp MAP_LITTLEROOT_TOWN, 3, 10
+	setvar VAR_ARNOLD_HOUSES_STATE, 1
+	setdynamicwarp MAP_ARNOLD, 16, 9
 	releaseall
 	end
 
@@ -43,7 +45,7 @@ InsideOfTruck_EventScript_SetIntroFlagsFemale::
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
 	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 1
-	setdynamicwarp MAP_LITTLEROOT_TOWN, 12, 10
+	setdynamicwarp MAP_ARNOLD, 16, 9
 	releaseall
 	end
 

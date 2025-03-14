@@ -43,32 +43,32 @@
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
-#define FLAG_UNUSED_0x028    0x28 // Unused Flag
-#define FLAG_UNUSED_0x029    0x29 // Unused Flag
-#define FLAG_UNUSED_0x02A    0x2A // Unused Flag
-#define FLAG_UNUSED_0x02B    0x2B // Unused Flag
-#define FLAG_UNUSED_0x02C    0x2C // Unused Flag
-#define FLAG_UNUSED_0x02D    0x2D // Unused Flag
-#define FLAG_UNUSED_0x02E    0x2E // Unused Flag
-#define FLAG_UNUSED_0x02F    0x2F // Unused Flag
-#define FLAG_UNUSED_0x030    0x30 // Unused Flag
-#define FLAG_UNUSED_0x031    0x31 // Unused Flag
-#define FLAG_UNUSED_0x032    0x32 // Unused Flag
-#define FLAG_UNUSED_0x033    0x33 // Unused Flag
-#define FLAG_UNUSED_0x034    0x34 // Unused Flag
-#define FLAG_UNUSED_0x035    0x35 // Unused Flag
-#define FLAG_UNUSED_0x036    0x36 // Unused Flag
-#define FLAG_UNUSED_0x037    0x37 // Unused Flag
-#define FLAG_UNUSED_0x038    0x38 // Unused Flag
-#define FLAG_UNUSED_0x039    0x39 // Unused Flag
+#define FLAG_HIDE_ROUTE_1_BIRCH_ZIGZAGOON_BATTLE    0x20 // Unused Flag
+#define FLAG_HIDE_ROUTE_1_ZIGZAGOON    0x21 // Unused Flag
+#define FLAG_HIDE_ARNOLD_AZURILL    0x22 // Unused Flag
+#define FLAG_HIDE_ROUTE_3_SLOWPOKE1    0x23 // Unused Flag
+#define FLAG_HIDE_ROUTE_3_SLOWPOKE2    0x24 // Unused Flag
+#define FLAG_HIDE_ROUTE_3_SLOWPOKE3    0x25 // Unused Flag
+#define FLAG_HIDE_ROUTE_3_SLOWBRO     0x26 // Unused Flag
+#define FLAG_HIDE_ARNOLD_PLAYERS_HOUSE_MOM    0x27 // Unused Flag
+#define FLAG_HIDE_ARNOLD_TRUCK    0x28 // Unused Flag
+#define FLAG_HIDE_ARNOLD_RIVALS_HOUSE_RIVAL_MOM    0x29 // Unused Flag
+#define FLAG_HIDE_ARNOLD_RIVALS_HOUSE_SIBLING    0x2A // Unused Flag
+#define FLAG_HIDE_ARNOLD_RIVALS_HOUSE_2F_POKE_BALL    0x2B // Unused Flag
+#define FLAG_HIDE_ARNOLD_MOM_OUTSIDE    0x2C // Unused Flag
+#define FLAG_HIDE_ARNOLD_RIVAL    0x2D // Unused Flag
+#define FLAG_HIDE_ARNOLD_RIVALS_HOUSE_RIVAL    0x2E // Unused Flag
+#define FLAG_HIDE_ARNOLD_RIVALS_HOUSE_RIVAL_BEDROOM   0x2F // Unused Flag
+#define FLAG_RECEIVED_POTION_SEVERNA_PARK    0x30 // Unused Flag
+#define FLAG_HIDE_SEVERNA_PARK_RIVAL    0x31 // Unused Flag
+#define FLAG_HIDE_ARNOLD_LAB_RIVAL    0x32 // Unused Flag
+#define FLAG_HIDE_ARNOLD_PLAYERS_HOUSE_BEDROOM_MOM    0x33 // Unused Flag
+#define FLAG_HIDE_ARNOLD_BIRCH    0x34 // Unused Flag
+#define FLAG_HIDE_ARNOLD_LAB_BIRCH    0x35 // Unused Flag
+#define FLAG_HIDE_ARNOLD_LAB_POKEBALL_CYNDAQUIL    0x36 // Unused Flag
+#define FLAG_HIDE_ARNOLD_LAB_POKEBALL_TOTODILE    0x37 // Unused Flag
+#define FLAG_HIDE_ARNOLD_LAB_POKEBALL_CHIKORITA    0x38 // Unused Flag
+#define FLAG_HIDE_ARNOLD_MAYS_HOUSE_2F_PICHU_DOLL    0x39 // Unused Flag
 #define FLAG_UNUSED_0x03A    0x3A // Unused Flag
 #define FLAG_UNUSED_0x03B    0x3B // Unused Flag
 #define FLAG_UNUSED_0x03C    0x3C // Unused Flag
@@ -1387,13 +1387,13 @@
 #define FLAG_IS_CHAMPION                            (SYSTEM_FLAGS + 0x1F) // Seems to be related to linking.
 #define FLAG_NURSE_UNION_ROOM_REMINDER              (SYSTEM_FLAGS + 0x20)
 
-#define FLAG_UNUSED_0x881                           (SYSTEM_FLAGS + 0x21) // Unused Flag
-#define FLAG_UNUSED_0x882                           (SYSTEM_FLAGS + 0x22) // Unused Flag
-#define FLAG_UNUSED_0x883                           (SYSTEM_FLAGS + 0x23) // Unused Flag
-#define FLAG_UNUSED_0x884                           (SYSTEM_FLAGS + 0x24) // Unused Flag
-#define FLAG_UNUSED_0x885                           (SYSTEM_FLAGS + 0x25) // Unused Flag
-#define FLAG_UNUSED_0x886                           (SYSTEM_FLAGS + 0x26) // Unused Flag
-#define FLAG_UNUSED_0x887                           (SYSTEM_FLAGS + 0x27) // Unused Flag
+#define FLAG_VISITED_ARNOLD                           (SYSTEM_FLAGS + 0x21) // PBC
+#define FLAG_VISITED_SEVERNA_PARK                           (SYSTEM_FLAGS + 0x22) // PBC
+#define FLAG_VISITED_ANNAPOLIS                           (SYSTEM_FLAGS + 0x23) // PBC
+#define FLAG_VISITED_BALTIMORE                           (SYSTEM_FLAGS + 0x24) // PBC
+#define FLAG_VISITED_HAVRE_DE_GRACE                           (SYSTEM_FLAGS + 0x25) // PBC
+#define FLAG_VISITED_KENT_ISLAND                           (SYSTEM_FLAGS + 0x26) // PBC
+#define FLAG_VISITED_WESTMINSTER                           (SYSTEM_FLAGS + 0x27) // PBC
 
 #define FLAG_SYS_USE_FLASH                          (SYSTEM_FLAGS + 0x28)
 #define FLAG_SYS_USE_STRENGTH                       (SYSTEM_FLAGS + 0x29)
@@ -1402,8 +1402,8 @@
 #define FLAG_SYS_SAFARI_MODE                        (SYSTEM_FLAGS + 0x2C)
 #define FLAG_SYS_CRUISE_MODE                        (SYSTEM_FLAGS + 0x2D)
 
-#define FLAG_UNUSED_0x88E                           (SYSTEM_FLAGS + 0x2E) // Unused Flag
-#define FLAG_UNUSED_0x88F                           (SYSTEM_FLAGS + 0x2F) // Unused Flag
+#define FLAG_VISITED_FREDERICK                           (SYSTEM_FLAGS + 0x2E) // PBC
+#define FLAG_VISITED_HAGERSTOWN                           (SYSTEM_FLAGS + 0x2F) // PBC
 
 #define FLAG_SYS_TV_HOME                            (SYSTEM_FLAGS + 0x30)
 #define FLAG_SYS_TV_WATCH                           (SYSTEM_FLAGS + 0x31)
@@ -1506,18 +1506,18 @@
 
 #define FLAG_RECEIVED_POKEDEX_FROM_BIRCH            (SYSTEM_FLAGS + 0x84)
 
-#define FLAG_UNUSED_0x8E5                           (SYSTEM_FLAGS + 0x85) // Unused Flag
-#define FLAG_UNUSED_0x8E6                           (SYSTEM_FLAGS + 0x86) // Unused Flag
-#define FLAG_UNUSED_0x8E7                           (SYSTEM_FLAGS + 0x87) // Unused Flag
-#define FLAG_UNUSED_0x8E8                           (SYSTEM_FLAGS + 0x88) // Unused Flag
-#define FLAG_UNUSED_0x8E9                           (SYSTEM_FLAGS + 0x89) // Unused Flag
-#define FLAG_UNUSED_0x8EA                           (SYSTEM_FLAGS + 0x8A) // Unused Flag
-#define FLAG_UNUSED_0x8EB                           (SYSTEM_FLAGS + 0x8B) // Unused Flag
-#define FLAG_UNUSED_0x8EC                           (SYSTEM_FLAGS + 0x8C) // Unused Flag
-#define FLAG_UNUSED_0x8ED                           (SYSTEM_FLAGS + 0x8D) // Unused Flag
-#define FLAG_UNUSED_0x8EE                           (SYSTEM_FLAGS + 0x8E) // Unused Flag
-#define FLAG_UNUSED_0x8EF                           (SYSTEM_FLAGS + 0x8F) // Unused Flag
-#define FLAG_UNUSED_0x8F0                           (SYSTEM_FLAGS + 0x90) // Unused Flag
+#define FLAG_VISITED_CUMBERLAND                           (SYSTEM_FLAGS + 0x85) // PBC
+#define FLAG_VISITED_OAKLAND                           (SYSTEM_FLAGS + 0x86) // PBC
+#define FLAG_VISITED_ROCKVILLE                           (SYSTEM_FLAGS + 0x87) // PBC
+#define FLAG_VISITED_ST_MICHAELS                           (SYSTEM_FLAGS + 0x88) // PBC
+#define FLAG_VISITED_CAMBRIDGE                           (SYSTEM_FLAGS + 0x89) // PBC
+#define FLAG_VISITED_SALISBURY                           (SYSTEM_FLAGS + 0x8A) // PBC
+#define FLAG_VISITED_OCEAN_CITY                           (SYSTEM_FLAGS + 0x8B) // PBC
+#define FLAG_VISITED_LA_PLATA                           (SYSTEM_FLAGS + 0x8C) // PBC
+#define FLAG_VISITED_WASHINGTON                           (SYSTEM_FLAGS + 0x8D) // PBC
+#define FLAG_VISITED_REHOBOTH                           (SYSTEM_FLAGS + 0x8E) // PBC
+#define FLAG_VISITED_YORK                           (SYSTEM_FLAGS + 0x8F) // PBC
+#define FLAG_VISITED_FAIRFAX                           (SYSTEM_FLAGS + 0x90) // PBC
 #define FLAG_UNUSED_0x8F1                           (SYSTEM_FLAGS + 0x91) // Unused Flag
 #define FLAG_UNUSED_0x8F2                           (SYSTEM_FLAGS + 0x92) // Unused Flag
 #define FLAG_UNUSED_0x8F3                           (SYSTEM_FLAGS + 0x93) // Unused Flag

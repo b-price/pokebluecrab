@@ -28,7 +28,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 5,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_HAVRE_DE_GRACE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_HAVRE_DE_GRACE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HAVRE_DE_GRACE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_HAVRE_DE_GRACE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

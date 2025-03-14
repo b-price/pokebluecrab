@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_OAKLAND",
-      "offset": 0,
+      "offset": 2,
       "direction": "down"
     }
   ],
@@ -28,12 +28,25 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 11,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE14",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 13,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
   ]
 }

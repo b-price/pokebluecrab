@@ -14,26 +14,156 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE12",
+      "map": "MAP_ROUTE1",
       "offset": 6,
       "direction": "down"
     },
     {
       "map": "MAP_ROUTE3",
-      "offset": 6,
+      "offset": 2,
       "direction": "up"
     }
   ],
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
+      "x": 26,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SevernaPark_EventScript_MartEmployee",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
+      "x": 16,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SevernaPark_EventScript_Fisherman",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+      "x": 25,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SevernaPark_EventScript_Rival",
+      "flag": "FLAG_HIDE_SEVERNA_PARK_RIVAL"
+    }
   ],
   "warp_events": [
-
+    {
+      "x": 19,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_SEVERNA_PARK_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 27,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_SEVERNA_PARK_HOUSE2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_SEVERNA_PARK_POKEMON_CENTER_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 27,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_SEVERNA_PARK_MART",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_SEVERNA_PARK_RIVAL_STATE",
+      "var_value": "1",
+      "script": "SevernaPark_EventScript_RivalTrigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_SEVERNA_PARK_RIVAL_STATE",
+      "var_value": "1",
+      "script": "SevernaPark_EventScript_RivalTrigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_SEVERNA_PARK_RIVAL_STATE",
+      "var_value": "1",
+      "script": "SevernaPark_EventScript_RivalTrigger3"
+    }
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 20,
+      "y": 9,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "type": "sign",
+      "x": 21,
+      "y": 9,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "type": "sign",
+      "x": 28,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "type": "sign",
+      "x": 29,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "type": "sign",
+      "x": 22,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SevernaPark_EventScript_TownSign"
+    }
   ]
 }

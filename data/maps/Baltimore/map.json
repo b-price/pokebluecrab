@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_ROUTE3",
-      "offset": 4,
+      "offset": 0,
       "direction": "down"
     },
     {
@@ -38,12 +38,249 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 11,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 21,
+      "y": 41,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE3",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 9,
+      "y": 41,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE3",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 31,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 36,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 40,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 53,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "14"
+    },
+    {
+      "x": 13,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "13"
+    },
+    {
+      "x": 26,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 51,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 20,
+      "y": 38,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 32,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "type": "sign",
+      "x": 13,
+      "y": 32,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 26,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "type": "sign",
+      "x": 13,
+      "y": 26,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 39,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 23,
+      "y": 26,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 27,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 28,
+      "y": 37,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 49,
+      "y": 40,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 49,
+      "y": 26,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 36,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 36,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 36,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 36,
+      "y": 39,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
   ]
 }

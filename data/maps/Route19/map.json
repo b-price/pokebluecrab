@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_ROUTE18",
-      "offset": -16,
+      "offset": -14,
       "direction": "left"
     },
     {
       "map": "MAP_SALISBURY",
-      "offset": -10,
+      "offset": -8,
       "direction": "right"
     }
   ],
@@ -28,12 +28,40 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 5,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE18",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE18",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 37,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
   ]
 }

@@ -4412,14 +4412,14 @@
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE1",
-      "name": "Route1_Layout",
-      "width": 40,
+      "id": "LAYOUT_ROUTE2",
+      "name": "Route2_Layout",
+      "width": 44,
       "height": 38,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Arnold",
-      "border_filepath": "data/layouts/Route1/border.bin",
-      "blockdata_filepath": "data/layouts/Route1/map.bin"
+      "border_filepath": "data/layouts/Route2/border.bin",
+      "blockdata_filepath": "data/layouts/Route2/map.bin"
     },
     {
       "id": "LAYOUT_ARNOLD",
@@ -4472,19 +4472,19 @@
       "blockdata_filepath": "data/layouts/SevernaPark/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE12",
-      "name": "Route12_Layout",
+      "id": "LAYOUT_ROUTE1",
+      "name": "Route1_Layout",
       "width": 36,
       "height": 16,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Arnold",
-      "border_filepath": "data/layouts/Route12/border.bin",
-      "blockdata_filepath": "data/layouts/Route12/map.bin"
+      "border_filepath": "data/layouts/Route1/border.bin",
+      "blockdata_filepath": "data/layouts/Route1/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE3",
       "name": "Route3_Layout",
-      "width": 36,
+      "width": 40,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Arnold",
@@ -4515,7 +4515,7 @@
       "id": "LAYOUT_ROUTE5",
       "name": "Route5_Layout",
       "width": 24,
-      "height": 62,
+      "height": 64,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Annapolis",
       "border_filepath": "data/layouts/Route5/border.bin",
@@ -4584,7 +4584,7 @@
     {
       "id": "LAYOUT_ROUTE10",
       "name": "Route10_Layout",
-      "width": 16,
+      "width": 28,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Westminster",
@@ -4624,7 +4624,7 @@
     {
       "id": "LAYOUT_ROUTE11",
       "name": "Route11_Layout",
-      "width": 20,
+      "width": 24,
       "height": 60,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Frederick",
@@ -4632,20 +4632,20 @@
       "blockdata_filepath": "data/layouts/Route11/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE12_",
-      "name": "Route12__Layout",
+      "id": "LAYOUT_ROUTE12",
+      "name": "Route12_Layout",
       "width": 52,
-      "height": 16,
+      "height": 22,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cumberland",
-      "border_filepath": "data/layouts/Route12_/border.bin",
-      "blockdata_filepath": "data/layouts/Route12_/map.bin"
+      "border_filepath": "data/layouts/Route12/border.bin",
+      "blockdata_filepath": "data/layouts/Route12/map.bin"
     },
     {
       "id": "LAYOUT_HAGERSTOWN",
       "name": "Hagerstown_Layout",
       "width": 32,
-      "height": 16,
+      "height": 24,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cumberland",
       "border_filepath": "data/layouts/Hagerstown/border.bin",
@@ -4665,7 +4665,7 @@
       "id": "LAYOUT_ROUTE13",
       "name": "Route13_Layout",
       "width": 48,
-      "height": 20,
+      "height": 24,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cumberland",
       "border_filepath": "data/layouts/Route13/border.bin",
@@ -4675,7 +4675,7 @@
       "id": "LAYOUT_ROUTE14",
       "name": "Route14_Layout",
       "width": 30,
-      "height": 20,
+      "height": 24,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cumberland",
       "border_filepath": "data/layouts/Route14/border.bin",
@@ -4685,7 +4685,7 @@
       "id": "LAYOUT_CUMBERLAND",
       "name": "Cumberland_Layout",
       "width": 24,
-      "height": 20,
+      "height": 24,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cumberland",
       "border_filepath": "data/layouts/Cumberland/border.bin",
@@ -4694,8 +4694,8 @@
     {
       "id": "LAYOUT_ROUTE15",
       "name": "Route15_Layout",
-      "width": 20,
-      "height": 52,
+      "width": 24,
+      "height": 64,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Oakland",
       "border_filepath": "data/layouts/Route15/border.bin",
@@ -4805,7 +4805,7 @@
       "id": "LAYOUT_ROUTE19",
       "name": "Route19_Layout",
       "width": 48,
-      "height": 20,
+      "height": 24,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Salisbury",
       "border_filepath": "data/layouts/Route19/border.bin",
@@ -4884,10 +4884,10 @@
     {
       "id": "LAYOUT_DC",
       "name": "DC_Layout",
-      "width": 36,
-      "height": 36,
+      "width": 78,
+      "height": 44,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Rustboro",
+      "secondary_tileset": "gTileset_DC",
       "border_filepath": "data/layouts/DC/border.bin",
       "blockdata_filepath": "data/layouts/DC/map.bin"
     },
@@ -4910,6 +4910,56 @@
       "secondary_tileset": "gTileset_Baltimore",
       "border_filepath": "data/layouts/Route29/border.bin",
       "blockdata_filepath": "data/layouts/Route29/map.bin"
+    },
+    {
+      "id": "LAYOUT_ARNOLD_PLAYERS_HOUSE_1F",
+      "name": "Arnold_PlayersHouse_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Arnold_PlayersHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Arnold_PlayersHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ARNOLD_PLAYERS_HOUSE_2F",
+      "name": "Arnold_PlayersHouse_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Arnold_PlayersHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/Arnold_PlayersHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ARNOLD_RIVALS_HOUSE_1F",
+      "name": "Arnold_RivalsHouse_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Arnold_RivalsHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Arnold_RivalsHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ARNOLD_RIVALS_HOUSE_2F",
+      "name": "Arnold_RivalsHouse_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Arnold_RivalsHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/Arnold_RivalsHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ARNOLD_LAB",
+      "name": "Arnold_Lab_Layout",
+      "width": 13,
+      "height": 13,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/Arnold_Lab/border.bin",
+      "blockdata_filepath": "data/layouts/Arnold_Lab/map.bin"
     }
   ]
 }

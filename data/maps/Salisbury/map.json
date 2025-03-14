@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_ROUTE19",
-      "offset": 10,
+      "offset": 8,
       "direction": "left"
     },
     {
@@ -28,12 +28,153 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 7,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_SALISBURY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_SALISBURY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_SALISBURY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_SALISBURY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_SALISBURY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_SALISBURY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_SALISBURY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_SALISBURY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_SALISBURY",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 0,
+      "y": 13,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 22,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    }
   ]
 }

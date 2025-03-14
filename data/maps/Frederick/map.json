@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_ROUTE11",
-      "offset": 8,
+      "offset": 6,
       "direction": "up"
     },
     {
@@ -33,7 +33,55 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 22,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_FREDERICK",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_FREDERICK",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_FREDERICK",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_FREDERICK",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_FREDERICK",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_FREDERICK",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_FREDERICK",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

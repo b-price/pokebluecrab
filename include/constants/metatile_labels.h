@@ -1,6 +1,23 @@
 #ifndef GUARD_METATILE_LABELS_H
 #define GUARD_METATILE_LABELS_H
 
+// gTileset_Annapolis
+#define METATILE_Annapolis_Door_Brown         0x2AF
+#define METATILE_Annapolis_Door_HavreDeGrace  0x35C
+#define METATILE_Annapolis_Door_Tan           0x2BF
+
+// gTileset_Arnold
+#define METATILE_Arnold_Door_Arnold         0x248
+#define METATILE_Arnold_Door_ArnoldLab      0x249
+#define METATILE_Arnold_Door_MarleyStation  0x2A4
+#define METATILE_Arnold_Door_SevernaPark    0x287
+
+// gTileset_Baltimore
+#define METATILE_Baltimore_Door_Aquarium  0x28A
+#define METATILE_Baltimore_Door_Orange    0x3C2
+#define METATILE_Baltimore_Door_Purple    0x361
+#define METATILE_Baltimore_Door_Tower     0x32C
+
 // gTileset_BattleArena
 #define METATILE_BattleArena_Door  0x21B
 
@@ -117,6 +134,9 @@
 #define METATILE_Building_TV_Off  0x002
 #define METATILE_Building_TV_On   0x003
 
+// gTileset_Cambridge
+#define METATILE_Cambridge_Door_Wood  0x2BD
+
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
 #define METATILE_Cave_CrackedFloor_Hole                  0x206
@@ -138,6 +158,17 @@
 #define METATILE_Contest_CounterFlap_Top     0x2D1
 #define METATILE_Contest_FloorShadow         0x261
 #define METATILE_Contest_WallShadow          0x221
+
+// gTileset_Cumberland
+#define METATILE_Cumberland_Door_Gym         0x36C
+#define METATILE_Cumberland_Door_Hagerstown  0x2A5
+#define METATILE_Cumberland_Door_Plain       0x31A
+#define METATILE_Cumberland_Door_Reverse     0x319
+#define METATILE_Cumberland_Door_Window      0x2F7
+
+// gTileset_DC
+#define METATILE_DC_Door           0x2B2
+#define METATILE_DC_Door_Pokeball  0x215
 
 // gTileset_Dewford
 #define METATILE_Dewford_Door              0x225
@@ -204,6 +235,10 @@
 #define METATILE_Fortree_WoodBridge1_Bottom                0x29F
 #define METATILE_Fortree_WoodBridge1_Top                   0x297
 
+// gTileset_Frederick
+#define METATILE_Frederick_Door_Blue    0x2A9
+#define METATILE_Frederick_Door_Purple  0x2B5
+
 // gTileset_General
 #define METATILE_General_BlueCaveIndent        0x1B0
 #define METATILE_General_BlueCaveOpen          0x1B1
@@ -263,6 +298,26 @@
 #define METATILE_InsideShip_IntactDoor_Bottom_Interior  0x297
 #define METATILE_InsideShip_IntactDoor_Bottom_Locked    0x233
 #define METATILE_InsideShip_IntactDoor_Bottom_Unlocked  0x22B
+
+// gTileset_KentIsland
+#define METATILE_KentIsland_Door_Floating                      0x2EB
+#define METATILE_KentIsland_Door_Reverse                       0x2A7
+#define METATILE_KentIsland_Door_wood                          0x2BD
+#define METATILE_KentIsland_FloatingLogs_HorizontalLeft        0x2CE
+#define METATILE_KentIsland_FloatingLogs_HorizontalRight       0x2CF
+#define METATILE_KentIsland_FloatingLogs_VerticalBottom        0x2E6
+#define METATILE_KentIsland_FloatingLogs_VerticalTop           0x2DE
+#define METATILE_KentIsland_HalfSubmergedLogs_HorizontalLeft   0x2D6
+#define METATILE_KentIsland_HalfSubmergedLogs_HorizontalRight  0x2D7
+#define METATILE_KentIsland_HalfSubmergedLogs_VerticalBottom   0x2E7
+#define METATILE_KentIsland_HalfSubmergedLogs_VerticalTop      0x2DF
+#define METATILE_KentIsland_SubmergedLogs_HorizontalLeft       0x2D4
+#define METATILE_KentIsland_SubmergedLogs_HorizontalRight      0x2D5
+#define METATILE_KentIsland_SubmergedLogs_VerticalBottom       0x2F6
+#define METATILE_KentIsland_SubmergedLogs_VerticalTop          0x2EE
+
+// gTileset_LaPlata
+#define METATILE_LaPlata_Door_Normal  0x246
 
 // gTileset_Lavaridge
 #define METATILE_Lavaridge_AshGrass             0x207
@@ -370,6 +425,12 @@
 // gTileset_MossdeepGym
 #define METATILE_MossdeepGym_YellowArrow_Right  0x250
 
+// gTileset_Oakland
+#define METATILE_Oakland_Door_Normal  0x2A5
+
+// gTileset_OceanCity
+#define METATILE_OceanCity_Door_Sliding  0x30A
+
 // gTileset_Pacifidlog
 #define METATILE_Pacifidlog_Door                               0x21A
 #define METATILE_Pacifidlog_FloatingLogs_HorizontalLeft        0x250
@@ -431,9 +492,18 @@
 #define METATILE_PokemonCenter_Floor_ShadowTop           0x21E
 #define METATILE_PokemonCenter_Floor_ShadowTop_Alt       0x2DC
 
+// gTileset_Rockville
+#define METATILE_Rockville_Door_DeptStore  0x214
+#define METATILE_Rockville_Door_Sliding    0x2FB
+#define METATILE_Rockville_Door_Tower      0x2B2
+
 // gTileset_Rustboro
 #define METATILE_Rustboro_Door_Gray  0x21F
 #define METATILE_Rustboro_Door_Tan   0x22F
+
+// gTileset_Salisbury
+#define METATILE_Salisbury_Door_Normal      0x2BD
+#define METATILE_Salisbury_Door_SafariZone  0x2D2
 
 // gTileset_SecretBase
 #define METATILE_SecretBase_AttractMat_BottomLeft       0x313

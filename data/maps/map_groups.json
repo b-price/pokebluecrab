@@ -33,7 +33,30 @@
     "gMapGroup_IndoorRoute113",
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
-    "gMapGroup_IndoorRoute124"
+    "gMapGroup_IndoorRoute124",
+    "gMapGroup_IndoorArnold",
+    "gMapGroup_IndoorSevernaPark",
+    "gMapGroup_IndoorAnnapolis",
+    "gMapGroup_IndoorBaltimore",
+    "gMapGroup_IndoorHavreDeGrace",
+    "gMapGroup_IndoorKentIsland",
+    "gMapGroup_IndoorStMichaels",
+    "gMapGroup_IndoorWestminster",
+    "gMapGroup_IndoorFrederick",
+    "gMapGroup_IndoorHagerstown",
+    "gMapGroup_IndoorCumberland",
+    "gMapGroup_IndoorOakland",
+    "gMapGroup_IndoorRockville",
+    "gMapGroup_IndoorCambridge",
+    "gMapGroup_IndoorSalisbury",
+    "gMapGroup_IndoorOceanCity",
+    "gMapGroup_IndoorLaPlata",
+    "gMapGroup_IndoorWashington",
+    "gMapGroup_IndoorRoute3",
+    "gMapGroup_IndoorRoute7",
+    "gMapGroup_IndoorRoute9",
+    "gMapGroup_IndoorRoute21",
+    "gMapGroup_IndoorRoute24"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -93,13 +116,13 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125",
-    "Route1",
+    "Route2",
     "Arnold",
     "Annapolis",
     "Annapolis2",
     "Oakland",
     "SevernaPark",
-    "Route12",
+    "Route1",
     "Route3",
     "Baltimore",
     "Route4",
@@ -115,7 +138,7 @@
     "Route9_2",
     "Frederick",
     "Route11",
-    "Route12_",
+    "Route12",
     "Hagerstown",
     "NewMap1",
     "Route13",
@@ -670,5 +693,82 @@
   ],
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
+  ],
+  "gMapGroup_IndoorArnold": [
+    "Arnold_RivalsHouse_1F",
+    "Arnold_RivalsHouse_2F",
+    "Arnold_PlayersHouse_1F",
+    "Arnold_PlayersHouse_2F",
+    "Arnold_Lab"
+  ],
+  "gMapGroup_IndoorSevernaPark": [
+    "SevernaPark_PokemonCenter_1F",
+    "SevernaPark_PokemonCenter_2F",
+    "SevernaPark_House2",
+    "SevernaPark_Mart",
+    "SevernaPark_House1"
+  ],
+  "gMapGroup_IndoorAnnapolis": [
+
+  ],
+  "gMapGroup_IndoorBaltimore": [
+
+  ],
+  "gMapGroup_IndoorHavreDeGrace": [
+
+  ],
+  "gMapGroup_IndoorKentIsland": [
+
+  ],
+  "gMapGroup_IndoorStMichaels": [
+
+  ],
+  "gMapGroup_IndoorWestminster": [
+
+  ],
+  "gMapGroup_IndoorFrederick": [
+
+  ],
+  "gMapGroup_IndoorHagerstown": [
+
+  ],
+  "gMapGroup_IndoorCumberland": [
+
+  ],
+  "gMapGroup_IndoorOakland": [
+
+  ],
+  "gMapGroup_IndoorRockville": [
+
+  ],
+  "gMapGroup_IndoorCambridge": [
+
+  ],
+  "gMapGroup_IndoorSalisbury": [
+
+  ],
+  "gMapGroup_IndoorOceanCity": [
+
+  ],
+  "gMapGroup_IndoorLaPlata": [
+
+  ],
+  "gMapGroup_IndoorWashington": [
+
+  ],
+  "gMapGroup_IndoorRoute3": [
+
+  ],
+  "gMapGroup_IndoorRoute7": [
+
+  ],
+  "gMapGroup_IndoorRoute9": [
+
+  ],
+  "gMapGroup_IndoorRoute21": [
+
+  ],
+  "gMapGroup_IndoorRoute24": [
+
   ]
 }

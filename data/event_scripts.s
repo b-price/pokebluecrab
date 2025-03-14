@@ -1153,7 +1153,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
 
-	.include "data/maps/Route1/scripts.inc"
+	.include "data/maps/Route2/scripts.inc"
 
 	.include "data/maps/Arnold/scripts.inc"
 
@@ -1165,7 +1165,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/SevernaPark/scripts.inc"
 
-	.include "data/maps/Route12/scripts.inc"
+	.include "data/maps/Route1/scripts.inc"
 
 	.include "data/maps/Route3/scripts.inc"
 
@@ -1197,7 +1197,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route11/scripts.inc"
 
-	.include "data/maps/Route12_/scripts.inc"
+	.include "data/maps/Route12/scripts.inc"
 
 	.include "data/maps/Hagerstown/scripts.inc"
 
@@ -1252,3 +1252,14 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/StMichaels/scripts.inc"
 
 	.include "data/maps/Route29/scripts.inc"
+
+    .include "data/maps/Arnold_Lab/scripts.inc"
+    .include "data/maps/Arnold_PlayersHouse_1F/scripts.inc"
+    .include "data/maps/Arnold_PlayersHouse_2F/scripts.inc"
+    .include "data/maps/Arnold_RivalsHouse_1F/scripts.inc"
+    .include "data/maps/Arnold_RivalsHouse_2F/scripts.inc"
+    .include "data/maps/SevernaPark_House1/scripts.inc"
+    .include "data/maps/SevernaPark_House2/scripts.inc"
+    .include "data/maps/SevernaPark_Mart/scripts.inc"
+    .include "data/maps/SevernaPark_PokemonCenter_1F/scripts.inc"
+    .include "data/maps/SevernaPark_PokemonCenter_2F/scripts.inc"

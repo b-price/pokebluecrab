@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_HAGERSTOWN",
-      "offset": 0,
+      "offset": -4,
       "direction": "right"
     }
   ],
@@ -28,7 +28,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 14,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE13",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE13",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
