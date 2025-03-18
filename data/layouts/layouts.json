@@ -586,7 +586,7 @@
       "name": "House1_Layout",
       "width": 10,
       "height": 9,
-      "primary_tileset": "gTileset_Building",
+      "primary_tileset": "gTileset_BuildingPBC",
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/House1/border.bin",
       "blockdata_filepath": "data/layouts/House1/map.bin"
@@ -596,7 +596,7 @@
       "name": "House2_Layout",
       "width": 11,
       "height": 8,
-      "primary_tileset": "gTileset_Building",
+      "primary_tileset": "gTileset_BuildingPBC",
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/House2/border.bin",
       "blockdata_filepath": "data/layouts/House2/map.bin"
@@ -4960,6 +4960,196 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/Arnold_Lab/border.bin",
       "blockdata_filepath": "data/layouts/Arnold_Lab/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEVERNA_PARK_HOUSE3",
+      "name": "SevernaPark_House3_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_BuildingPBC",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/SevernaPark_House3/border.bin",
+      "blockdata_filepath": "data/layouts/SevernaPark_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEVERNA_PARK_HOUSE4",
+      "name": "SevernaPark_House4_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_BuildingPBC",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/SevernaPark_House4/border.bin",
+      "blockdata_filepath": "data/layouts/SevernaPark_House4/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEVERNA_PARK_HOUSE5",
+      "name": "SevernaPark_House5_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_BuildingPBC",
+      "secondary_tileset": "gTileset_BuildingExtension",
+      "border_filepath": "data/layouts/SevernaPark_House5/border.bin",
+      "blockdata_filepath": "data/layouts/SevernaPark_House5/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_APT_1F",
+      "name": "Annapolis_Apt_1F_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_BuildingPBC",
+      "secondary_tileset": "gTileset_BuildingExtension",
+      "border_filepath": "data/layouts/Annapolis_Apt_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_Apt_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_APT_2F",
+      "name": "Annapolis_Apt_2F_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_BuildingPBC",
+      "secondary_tileset": "gTileset_BuildingExtension",
+      "border_filepath": "data/layouts/Annapolis_Apt_2F/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_Apt_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_APT_3F",
+      "name": "Annapolis_Apt_3F_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_BuildingPBC",
+      "secondary_tileset": "gTileset_BuildingExtension",
+      "border_filepath": "data/layouts/Annapolis_Apt_3F/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_Apt_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_HOUSE1",
+      "name": "Annapolis_House1_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_BuildingPBC",
+      "secondary_tileset": "gTileset_BuildingExtension",
+      "border_filepath": "data/layouts/Annapolis_House1/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_HOUSE2",
+      "name": "Annapolis_House2_Layout",
+      "width": 12,
+      "height": 11,
+      "primary_tileset": "gTileset_BuildingPBC",
+      "secondary_tileset": "gTileset_BuildingExtension",
+      "border_filepath": "data/layouts/Annapolis_House2/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_HOUSE3",
+      "name": "Annapolis_House3_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_BuildingPBC",
+      "secondary_tileset": "gTileset_BuildingExtension",
+      "border_filepath": "data/layouts/Annapolis_House3/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_RESTAURANT",
+      "name": "Annapolis_Restaurant_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Annapolis_Restaurant/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_Restaurant/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_BIKE_CHECK",
+      "name": "Annapolis_BikeCheck_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BikeShopPBC",
+      "border_filepath": "data/layouts/Annapolis_BikeCheck/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_BikeCheck/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_STATE_HOUSE_1F",
+      "name": "Annapolis_StateHouse_1F_Layout",
+      "width": 16,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/Annapolis_StateHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_StateHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_STATE_HOUSE_2F",
+      "name": "Annapolis_StateHouse_2F_Layout",
+      "width": 16,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/Annapolis_StateHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_StateHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_STATE_HOUSE_3F",
+      "name": "Annapolis_StateHouse_3F_Layout",
+      "width": 16,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/Annapolis_StateHouse_3F/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_StateHouse_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_GYM",
+      "name": "Annapolis_Gym_Layout",
+      "width": 16,
+      "height": 18,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_AnnapolisGym",
+      "border_filepath": "data/layouts/Annapolis_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_POKEMON_CENTER_1F",
+      "name": "Annapolis_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenterPBC",
+      "border_filepath": "data/layouts/Annapolis_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_POKEMON_CENTER_2F",
+      "name": "Annapolis_PokemonCenter_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenterPBC",
+      "border_filepath": "data/layouts/Annapolis_PokemonCenter_2F/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_PokemonCenter_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_MART",
+      "name": "Annapolis_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_ShopPBC",
+      "border_filepath": "data/layouts/Annapolis_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_BALTIMORE_GYM",
+      "name": "Baltimore_Gym_Layout",
+      "width": 12,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BaltimoreGym",
+      "border_filepath": "data/layouts/Baltimore_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/Baltimore_Gym/map.bin"
     }
   ]
 }

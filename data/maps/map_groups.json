@@ -165,7 +165,8 @@
     "Route24",
     "DC",
     "StMichaels",
-    "Route29"
+    "Route29",
+    "SevernaPark_House3"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -706,13 +707,29 @@
     "SevernaPark_PokemonCenter_2F",
     "SevernaPark_House2",
     "SevernaPark_Mart",
-    "SevernaPark_House1"
+    "SevernaPark_House1",
+    "SevernaPark_House4",
+    "SevernaPark_House5"
   ],
   "gMapGroup_IndoorAnnapolis": [
-
+    "Annapolis_Apt_1F",
+    "Annapolis_Apt_2F",
+    "Annapolis_Apt_3F",
+    "Annapolis_House1",
+    "Annapolis_House2",
+    "Annapolis_House3",
+    "Annapolis_Restaurant",
+    "Annapolis_BikeCheck",
+    "Annapolis_StateHouse_1F",
+    "Annapolis_StateHouse_2F",
+    "Annapolis_StateHouse_3F",
+    "Annapolis_Gym",
+    "Annapolis_PokemonCenter_1F",
+    "Annapolis_PokemonCenter_2F",
+    "Annapolis_Mart"
   ],
   "gMapGroup_IndoorBaltimore": [
-
+    "Baltimore_Gym"
   ],
   "gMapGroup_IndoorHavreDeGrace": [
 

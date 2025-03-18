@@ -49,42 +49,42 @@
       "x": 4,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_ANNAPOLIS",
+      "dest_map": "MAP_ANNAPOLIS_MART",
       "dest_warp_id": "0"
     },
     {
       "x": 20,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_ANNAPOLIS",
+      "dest_map": "MAP_ANNAPOLIS_GYM",
       "dest_warp_id": "0"
     },
     {
       "x": 10,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_ANNAPOLIS",
-      "dest_warp_id": "4"
+      "dest_map": "MAP_ANNAPOLIS_BIKE_CHECK",
+      "dest_warp_id": "3"
     },
     {
       "x": 14,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_ANNAPOLIS",
-      "dest_warp_id": "3"
+      "dest_map": "MAP_ANNAPOLIS_BIKE_CHECK",
+      "dest_warp_id": "0"
     },
     {
       "x": 31,
       "y": 13,
       "elevation": 0,
-      "dest_map": "MAP_ANNAPOLIS",
+      "dest_map": "MAP_ANNAPOLIS_RESTAURANT",
       "dest_warp_id": "0"
     },
     {
       "x": 5,
       "y": 21,
       "elevation": 0,
-      "dest_map": "MAP_ANNAPOLIS",
+      "dest_map": "MAP_ANNAPOLIS_APT_1F",
       "dest_warp_id": "0"
     },
     {

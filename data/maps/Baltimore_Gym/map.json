@@ -1,0 +1,41 @@
+{
+  "id": "MAP_BALTIMORE_GYM",
+  "name": "Baltimore_Gym",
+  "layout": "LAYOUT_BALTIMORE_GYM",
+  "music": "MUS_GYM",
+  "region_map_section": "MAPSEC_BALTIMORE",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_BALTIMORE",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

@@ -252,3 +252,24 @@ const u16 gMetatileAttributes_Westminster[] = INCBIN_U16("data/tilesets/secondar
 
 const u16 gMetatiles_DC[] = INCBIN_U16("data/tilesets/secondary/dc/metatiles.bin");
 const u16 gMetatileAttributes_DC[] = INCBIN_U16("data/tilesets/secondary/dc/metatile_attributes.bin");
+
+const u16 gMetatiles_BuildingPBC[] = INCBIN_U16("data/tilesets/primary/building_pbc/metatiles.bin");
+const u16 gMetatileAttributes_BuildingPBC[] = INCBIN_U16("data/tilesets/primary/building_pbc/metatile_attributes.bin");
+
+const u16 gMetatiles_BuildingExtension[] = INCBIN_U16("data/tilesets/secondary/building_extension/metatiles.bin");
+const u16 gMetatileAttributes_BuildingExtension[] = INCBIN_U16("data/tilesets/secondary/building_extension/metatile_attributes.bin");
+
+const u16 gMetatiles_BikeShopPBC[] = INCBIN_U16("data/tilesets/secondary/bike_shop_pbc/metatiles.bin");
+const u16 gMetatileAttributes_BikeShopPBC[] = INCBIN_U16("data/tilesets/secondary/bike_shop_pbc/metatile_attributes.bin");
+
+const u16 gMetatiles_AnnapolisGym[] = INCBIN_U16("data/tilesets/secondary/annapolis_gym/metatiles.bin");
+const u16 gMetatileAttributes_AnnapolisGym[] = INCBIN_U16("data/tilesets/secondary/annapolis_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_ShopPBC[] = INCBIN_U16("data/tilesets/secondary/shop_pbc/metatiles.bin");
+const u16 gMetatileAttributes_ShopPBC[] = INCBIN_U16("data/tilesets/secondary/shop_pbc/metatile_attributes.bin");
+
+const u16 gMetatiles_PokemonCenterPBC[] = INCBIN_U16("data/tilesets/secondary/pokemon_center_pbc/metatiles.bin");
+const u16 gMetatileAttributes_PokemonCenterPBC[] = INCBIN_U16("data/tilesets/secondary/pokemon_center_pbc/metatile_attributes.bin");
+
+const u16 gMetatiles_BaltimoreGym[] = INCBIN_U16("data/tilesets/secondary/baltimore_gym/metatiles.bin");
+const u16 gMetatileAttributes_BaltimoreGym[] = INCBIN_U16("data/tilesets/secondary/baltimore_gym/metatile_attributes.bin");

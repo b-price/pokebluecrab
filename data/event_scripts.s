@@ -1263,3 +1263,41 @@ EventScript_VsSeekerChargingDone::
     .include "data/maps/SevernaPark_Mart/scripts.inc"
     .include "data/maps/SevernaPark_PokemonCenter_1F/scripts.inc"
     .include "data/maps/SevernaPark_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/SevernaPark_House3/scripts.inc"
+
+	.include "data/maps/SevernaPark_House4/scripts.inc"
+
+	.include "data/maps/SevernaPark_House5/scripts.inc"
+
+	.include "data/maps/Annapolis_Apt_1F/scripts.inc"
+
+	.include "data/maps/Annapolis_Apt_2F/scripts.inc"
+
+	.include "data/maps/Annapolis_Apt_3F/scripts.inc"
+
+	.include "data/maps/Annapolis_House1/scripts.inc"
+
+	.include "data/maps/Annapolis_House2/scripts.inc"
+
+	.include "data/maps/Annapolis_House3/scripts.inc"
+
+	.include "data/maps/Annapolis_Restaurant/scripts.inc"
+
+	.include "data/maps/Annapolis_BikeCheck/scripts.inc"
+
+	.include "data/maps/Annapolis_StateHouse_1F/scripts.inc"
+
+	.include "data/maps/Annapolis_StateHouse_2F/scripts.inc"
+
+	.include "data/maps/Annapolis_StateHouse_3F/scripts.inc"
+
+	.include "data/maps/Annapolis_Gym/scripts.inc"
+
+	.include "data/maps/Annapolis_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/Annapolis_PokemonCenter_2F/scripts.inc"
+
+	.include "data/maps/Annapolis_Mart/scripts.inc"
+
+	.include "data/maps/Baltimore_Gym/scripts.inc"

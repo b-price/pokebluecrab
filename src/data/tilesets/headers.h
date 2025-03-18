@@ -990,3 +990,80 @@ const struct Tileset gTileset_DC =
     .metatileAttributes = gMetatileAttributes_DC,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_BuildingPBC =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_BuildingPBC,
+    .palettes = gTilesetPalettes_BuildingPBC,
+    .metatiles = gMetatiles_BuildingPBC,
+    .metatileAttributes = gMetatileAttributes_BuildingPBC,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_BuildingExtension =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_BuildingExtension,
+    .palettes = gTilesetPalettes_BuildingExtension,
+    .metatiles = gMetatiles_BuildingExtension,
+    .metatileAttributes = gMetatileAttributes_BuildingExtension,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_BikeShopPBC =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_BikeShopPBC,
+    .palettes = gTilesetPalettes_BikeShopPBC,
+    .metatiles = gMetatiles_BikeShopPBC,
+    .metatileAttributes = gMetatileAttributes_BikeShopPBC,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_AnnapolisGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_AnnapolisGym,
+    .palettes = gTilesetPalettes_AnnapolisGym,
+    .metatiles = gMetatiles_AnnapolisGym,
+    .metatileAttributes = gMetatileAttributes_AnnapolisGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_ShopPBC =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_ShopPBC,
+    .palettes = gTilesetPalettes_ShopPBC,
+    .metatiles = gMetatiles_ShopPBC,
+    .metatileAttributes = gMetatileAttributes_ShopPBC,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokemonCenterPBC =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokemonCenterPBC,
+    .palettes = gTilesetPalettes_PokemonCenterPBC,
+    .metatiles = gMetatiles_PokemonCenterPBC,
+    .metatileAttributes = gMetatileAttributes_PokemonCenterPBC,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_BaltimoreGym =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_BaltimoreGym,
+    .palettes = gTilesetPalettes_BaltimoreGym,
+    .metatiles = gMetatiles_BaltimoreGym,
+    .metatileAttributes = gMetatileAttributes_BaltimoreGym,
+    .callback = NULL,
+};

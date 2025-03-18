@@ -134,6 +134,11 @@
 #define METATILE_Building_TV_Off  0x002
 #define METATILE_Building_TV_On   0x003
 
+// gTileset_BuildingPBC
+#define METATILE_BuildingPBC_TableEdge               0x0F9
+#define METATILE_BuildingPBC_TrickHouse_Door_Closed  0x023
+#define METATILE_BuildingPBC_TrickHouse_Stairs_Down  0x000
+
 // gTileset_Cambridge
 #define METATILE_Cambridge_Door_Wood  0x2BD
 
