@@ -171,6 +171,7 @@
 #define METATILE_Cumberland_Door_Plain       0x31A
 #define METATILE_Cumberland_Door_Reverse     0x319
 #define METATILE_Cumberland_Door_Window      0x2F7
+#define METATILE_Cumberland_TallGrassAltPal  0x212
 
 // gTileset_DC
 #define METATILE_DC_Door           0x2B2

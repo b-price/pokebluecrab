@@ -101,6 +101,18 @@ const struct SpriteTemplate gFieldEffectObjectTemplate_TallGrass = {
     .callback = UpdateTallGrassFieldEffect,
 };
 
+const struct SpriteTemplate gFieldEffectObjectTemplate_TallGrassAltPal = {
+        .tileTag = TAG_NONE,
+        .paletteTag = FLDEFF_PAL_TAG_GENERAL_10,
+        .oam = &gObjectEventBaseOam_16x16,
+        .anims = sAnimTable_TallGrass,
+        .images = sPicTable_TallGrass,
+        .affineAnims = gDummySpriteAffineAnimTable,
+        .callback = UpdateTallGrassAltPalFieldEffect,
+};
+
+const struct SpritePalette gSpritePalette_GeneralFieldEffect10 = {gFieldEffectObjectPalette10, FLDEFF_PAL_TAG_GENERAL_10};
+
 static const struct SpriteFrameImage sPicTable_Ripple[] = {
     overworld_frame(gFieldEffectObjectPic_Ripple, 2, 2, 0),
     overworld_frame(gFieldEffectObjectPic_Ripple, 2, 2, 1),

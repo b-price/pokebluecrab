@@ -128,12 +128,14 @@ static void UpdateObjectEventSpriteVisibility(struct ObjectEvent *, struct Sprit
 static void ObjectEventUpdateMetatileBehaviors(struct ObjectEvent *);
 static void GetGroundEffectFlags_Reflection(struct ObjectEvent *, u32 *);
 static void GetGroundEffectFlags_TallGrassOnSpawn(struct ObjectEvent *, u32 *);
+static void GetGroundEffectFlags_TallGrassAltPalOnSpawn(struct ObjectEvent *, u32 *);
 static void GetGroundEffectFlags_LongGrassOnSpawn(struct ObjectEvent *, u32 *);
 static void GetGroundEffectFlags_SandHeap(struct ObjectEvent *, u32 *);
 static void GetGroundEffectFlags_ShallowFlowingWater(struct ObjectEvent *, u32 *);
 static void GetGroundEffectFlags_ShortGrass(struct ObjectEvent *, u32 *);
 static void GetGroundEffectFlags_HotSprings(struct ObjectEvent *, u32 *);
 static void GetGroundEffectFlags_TallGrassOnBeginStep(struct ObjectEvent *, u32 *);
+static void GetGroundEffectFlags_TallGrassAltPalOnBeginStep(struct ObjectEvent *, u32 *);
 static void GetGroundEffectFlags_LongGrassOnBeginStep(struct ObjectEvent *, u32 *);
 static void GetGroundEffectFlags_Tracks(struct ObjectEvent *, u32 *);
 static void GetGroundEffectFlags_Puddle(struct ObjectEvent *, u32 *);
@@ -9212,6 +9214,7 @@ static void GetAllGroundEffectFlags_OnSpawn(struct ObjectEvent *objEvent, u32 *f
     GetGroundEffectFlags_ShallowFlowingWater(objEvent, flags);
     GetGroundEffectFlags_ShortGrass(objEvent, flags);
     GetGroundEffectFlags_HotSprings(objEvent, flags);
+    GetGroundEffectFlags_TallGrassAltPalOnSpawn(objEvent, flags);
 }
 
 static void GetAllGroundEffectFlags_OnBeginStep(struct ObjectEvent *objEvent, u32 *flags)
@@ -9226,6 +9229,7 @@ static void GetAllGroundEffectFlags_OnBeginStep(struct ObjectEvent *objEvent, u3
     GetGroundEffectFlags_Puddle(objEvent, flags);
     GetGroundEffectFlags_ShortGrass(objEvent, flags);
     GetGroundEffectFlags_HotSprings(objEvent, flags);
+    GetGroundEffectFlags_TallGrassAltPalOnBeginStep(objEvent, flags);
 }
 
 static void GetAllGroundEffectFlags_OnFinishStep(struct ObjectEvent *objEvent, u32 *flags)
@@ -9279,6 +9283,18 @@ static void GetGroundEffectFlags_TallGrassOnBeginStep(struct ObjectEvent *objEve
 {
     if (MetatileBehavior_IsTallGrass(objEvent->currentMetatileBehavior))
         *flags |= GROUND_EFFECT_FLAG_TALL_GRASS_ON_MOVE;
+}
+
+static void GetGroundEffectFlags_TallGrassAltPalOnSpawn(struct ObjectEvent *objEvent, u32 *flags)
+{
+    if (MetatileBehavior_IsTallGrassAltPal(objEvent->currentMetatileBehavior))
+        *flags |= GROUND_EFFECT_FLAG_TALL_GRASS_ALT_PAL_ON_SPAWN;
+}
+
+static void GetGroundEffectFlags_TallGrassAltPalOnBeginStep(struct ObjectEvent *objEvent, u32 *flags)
+{
+    if (MetatileBehavior_IsTallGrassAltPal(objEvent->currentMetatileBehavior))
+        *flags |= GROUND_EFFECT_FLAG_TALL_GRASS_ALT_PAL_ON_MOVE;
 }
 
 static void GetGroundEffectFlags_LongGrassOnSpawn(struct ObjectEvent *objEvent, u32 *flags)
@@ -9409,6 +9425,7 @@ static void GetGroundEffectFlags_JumpLanding(struct ObjectEvent *objEvent, u32 *
         MetatileBehavior_IsSurfableWaterOrUnderwater,
         MetatileBehavior_IsShallowFlowingWater,
         MetatileBehavior_IsATile,
+        MetatileBehavior_IsTallGrassAltPal,
     };
 
     static const u32 jumpLandingFlags[] = {
@@ -9663,6 +9680,32 @@ void GroundEffect_StepOnTallGrass(struct ObjectEvent *objEvent, struct Sprite *s
     gFieldEffectArguments[6] = (u8)gSaveBlock1Ptr->location.mapNum << 8 | (u8)gSaveBlock1Ptr->location.mapGroup;
     gFieldEffectArguments[7] = FALSE; // don't skip to end of anim
     FieldEffectStart(FLDEFF_TALL_GRASS);
+}
+
+void GroundEffect_SpawnOnTallGrassAltPal(struct ObjectEvent *objEvent, struct Sprite *sprite)
+{
+    gFieldEffectArguments[0] = objEvent->currentCoords.x;
+    gFieldEffectArguments[1] = objEvent->currentCoords.y;
+    gFieldEffectArguments[2] = objEvent->previousElevation;
+    gFieldEffectArguments[3] = 2; // priority
+    gFieldEffectArguments[4] = objEvent->localId << 8 | objEvent->mapNum;
+    gFieldEffectArguments[5] = objEvent->mapGroup;
+    gFieldEffectArguments[6] = (u8)gSaveBlock1Ptr->location.mapNum << 8 | (u8)gSaveBlock1Ptr->location.mapGroup;
+    gFieldEffectArguments[7] = TRUE; // skip to end of anim
+    FieldEffectStart(FLDEFF_TALL_GRASS_ALT_PAL);
+}
+
+void GroundEffect_StepOnTallGrassAltPal(struct ObjectEvent *objEvent, struct Sprite *sprite)
+{
+    gFieldEffectArguments[0] = objEvent->currentCoords.x;
+    gFieldEffectArguments[1] = objEvent->currentCoords.y;
+    gFieldEffectArguments[2] = objEvent->previousElevation;
+    gFieldEffectArguments[3] = 2; // priority
+    gFieldEffectArguments[4] = objEvent->localId << 8 | objEvent->mapNum;
+    gFieldEffectArguments[5] = objEvent->mapGroup;
+    gFieldEffectArguments[6] = (u8)gSaveBlock1Ptr->location.mapNum << 8 | (u8)gSaveBlock1Ptr->location.mapGroup;
+    gFieldEffectArguments[7] = FALSE; // don't skip to end of anim
+    FieldEffectStart(FLDEFF_TALL_GRASS_ALT_PAL);
 }
 
 void GroundEffect_SpawnOnLongGrass(struct ObjectEvent *objEvent, struct Sprite *sprite)
@@ -9946,7 +9989,9 @@ static void (*const sGroundEffectFuncs[])(struct ObjectEvent *objEvent, struct S
     GroundEffect_JumpLandingDust,       // GROUND_EFFECT_FLAG_LAND_ON_NORMAL_GROUND
     GroundEffect_ShortGrass,            // GROUND_EFFECT_FLAG_SHORT_GRASS
     GroundEffect_HotSprings,            // GROUND_EFFECT_FLAG_HOT_SPRINGS
-    GroundEffect_Seaweed                // GROUND_EFFECT_FLAG_SEAWEED
+    GroundEffect_Seaweed,                // GROUND_EFFECT_FLAG_SEAWEED
+    GroundEffect_SpawnOnTallGrassAltPal,      // GROUND_EFFECT_FLAG_TALL_GRASS_ALT_PAL_ON_SPAWN
+    GroundEffect_StepOnTallGrassAltPal       // GROUND_EFFECT_FLAG_TALL_GRASS_ALT_PAL_ON_MOVE
 };
 
 static void DoFlaggedGroundEffects(struct ObjectEvent *objEvent, struct Sprite *sprite, u32 flags)
@@ -9973,7 +10018,8 @@ void filters_out_some_ground_effects(struct ObjectEvent *objEvent, u32 *flags)
                   | GROUND_EFFECT_FLAG_SHORT_GRASS
                   | GROUND_EFFECT_FLAG_SAND_PILE
                   | GROUND_EFFECT_FLAG_SHALLOW_FLOWING_WATER
-                  | GROUND_EFFECT_FLAG_TALL_GRASS_ON_MOVE);
+                  | GROUND_EFFECT_FLAG_TALL_GRASS_ON_MOVE
+                  | GROUND_EFFECT_FLAG_TALL_GRASS_ALT_PAL_ON_MOVE);
     }
 }
 
