@@ -1301,3 +1301,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Annapolis_Mart/scripts.inc"
 
 	.include "data/maps/Baltimore_Gym/scripts.inc"
+
+	.include "data/maps/Annapolis_FlowerShop/scripts.inc"
+
+	.include "data/maps/Baltimore_PokemonCenter_1F/scripts.inc"

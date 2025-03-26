@@ -4794,3 +4794,527 @@ VSSeeker_Text_TrainersNotReady::
 	.string "The other Trainers don't appear\n"
 	.string "to be ready for battle.\p"
 	.string "Let's wait till later.{PAUSE_UNTIL_PRESS}$"
+
+Route2_Text_JoeyIntro:
+    .string "Let's battle!$"
+
+Route2_Text_JoeyDefeat:
+    .string "Dang!$"
+
+Route2_Text_JoeyPostBattle:
+    .string "It sucks to lose!$"
+
+Route2_Text_MattIntro:
+    .string "Let's battle!$"
+
+Route2_Text_MattDefeat:
+    .string "Dang!$"
+
+Route2_Text_MattPostBattle:
+    .string "It sucks to lose!$"
+
+Route2_Text_SallyIntro:
+    .string "Let's battle!$"
+
+Route2_Text_SallyDefeat:
+    .string "Dang!$"
+
+Route2_Text_SallyPostBattle:
+    .string "It sucks to lose!$"
+
+Route2_Text_NoeIntro:
+    .string "Let's battle!$"
+
+Route2_Text_NoeDefeat:
+    .string "Dang!$"
+
+Route2_Text_NoePostBattle:
+    .string "It sucks to lose!$"
+
+Route2_Text_SonyaIntro:
+    .string "Let's battle!$"
+
+Route2_Text_SonyaDefeat:
+    .string "Dang!$"
+
+Route2_Text_SonyaPostBattle:
+    .string "It sucks to lose!$"
+
+Route2_Text_EloyIntro:
+    .string "Let's battle!$"
+
+Route2_Text_EloyDefeat:
+    .string "Dang!$"
+
+Route2_Text_EloyPostBattle:
+    .string "It sucks to lose!$"
+
+Route3_Text_EmJayIntro:
+    .string "Let's battle!$"
+
+Route3_Text_EmJayDefeat:
+    .string "Dang!$"
+
+Route3_Text_EmJayPostBattle:
+    .string "It sucks to lose!$"
+
+Route3_Text_HelenIntro:
+    .string "Let's battle!$"
+
+Route3_Text_HelenDefeat:
+    .string "Dang!$"
+
+Route3_Text_HelenPostBattle:
+    .string "It sucks to lose!$"
+
+Route3_Text_GilbertoIntro:
+    .string "Let's battle!$"
+
+Route3_Text_GilbertoDefeat:
+    .string "Dang!$"
+
+Route3_Text_GilbertoPostBattle:
+    .string "It sucks to lose!$"
+
+Route3_Text_DarrenIntro:
+    .string "Let's battle!$"
+
+Route3_Text_DarrenDefeat:
+    .string "Dang!$"
+
+Route3_Text_DarrenPostBattle:
+    .string "It sucks to lose!$"
+
+Route3_Text_BradIntro:
+    .string "Let's battle!$"
+
+Route3_Text_BradDefeat:
+    .string "Dang!$"
+
+Route3_Text_BradPostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_AntonIntro:
+    .string "Let's battle!$"
+
+Route4_Text_AntonDefeat:
+    .string "Dang!$"
+
+Route4_Text_AntonPostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_AlisonIntro:
+    .string "Let's battle!$"
+
+Route4_Text_AlisonDefeat:
+    .string "Dang!$"
+
+Route4_Text_AlisonPostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_MarkusIntro:
+    .string "Let's battle!$"
+
+Route4_Text_MarkusDefeat:
+    .string "Dang!$"
+
+Route4_Text_MarkusPostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_KevinIntro:
+    .string "Let's battle!$"
+
+Route4_Text_KevinDefeat:
+    .string "Dang!$"
+
+Route4_Text_KevinPostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_IsidroIntro:
+    .string "Let's battle!$"
+
+Route4_Text_IsidroDefeat:
+    .string "Dang!$"
+
+Route4_Text_IsidroPostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_RickIntro:
+    .string "Let's battle!$"
+
+Route4_Text_RickDefeat:
+    .string "Dang!$"
+
+Route4_Text_RickPostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_PatrickIntro:
+    .string "Let's battle!$"
+
+Route4_Text_PatrickDefeat:
+    .string "Dang!$"
+
+Route4_Text_PatrickPostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_DeonIntro:
+    .string "Let's battle!$"
+
+Route4_Text_DeonDefeat:
+    .string "Dang!$"
+
+Route4_Text_DeonPostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_MonteIntro:
+    .string "Let's battle!$"
+
+Route4_Text_MonteDefeat:
+    .string "Dang!$"
+
+Route4_Text_MontePostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_MelbaIntro:
+    .string "Let's battle!$"
+
+Route4_Text_MelbaDefeat:
+    .string "Dang!$"
+
+Route4_Text_MelbaPostBattle:
+    .string "It sucks to lose!$"
+
+Route4_Text_LutherIntro:
+    .string "Let's battle!$"
+
+Route4_Text_LutherDefeat:
+    .string "Dang!$"
+
+Route4_Text_LutherPostBattle:
+    .string "It sucks to lose!$"
+
+Route5_Text_AlphonsoIntro:
+    .string "Let's battle!$"
+
+Route5_Text_AlphonsoDefeat:
+    .string "Dang!$"
+
+Route5_Text_AlphonsoPostBattle:
+    .string "It sucks to lose!$"
+
+Route5_Text_MinhIntro:
+    .string "Let's battle!$"
+
+Route5_Text_MinhDefeat:
+    .string "Dang!$"
+
+Route5_Text_MinhPostBattle:
+    .string "It sucks to lose!$"
+
+Route5_Text_GeraldIntro:
+    .string "Let's battle!$"
+
+Route5_Text_GeraldDefeat:
+    .string "Dang!$"
+
+Route5_Text_GeraldPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_JeffIntro:
+    .string "Let's battle!$"
+
+Route6_Text_JeffDefeat:
+    .string "Dang!$"
+
+Route6_Text_JeffPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_JacintoIntro:
+    .string "Let's battle!$"
+
+Route6_Text_JacintoDefeat:
+    .string "Dang!$"
+
+Route6_Text_JacintoPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_RochelleIntro:
+    .string "Let's battle!$"
+
+Route6_Text_RochelleDefeat:
+    .string "Dang!$"
+
+Route6_Text_RochellePostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_SherriIntro:
+    .string "Let's battle!$"
+
+Route6_Text_SherriDefeat:
+    .string "Dang!$"
+
+Route6_Text_SherriPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_GregIntro:
+    .string "Let's battle!$"
+
+Route6_Text_GregDefeat:
+    .string "Dang!$"
+
+Route6_Text_GregPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_FredIntro:
+    .string "Let's battle!$"
+
+Route6_Text_FredDefeat:
+    .string "Dang!$"
+
+Route6_Text_FredPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_ClaytonIntro:
+    .string "Let's battle!$"
+
+Route6_Text_ClaytonDefeat:
+    .string "Dang!$"
+
+Route6_Text_ClaytonPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_MarionIntro:
+    .string "Let's battle!$"
+
+Route6_Text_MarionDefeat:
+    .string "Dang!$"
+
+Route6_Text_MarionPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_ChaseIntro:
+    .string "Let's battle!$"
+
+Route6_Text_ChaseDefeat:
+    .string "Dang!$"
+
+Route6_Text_ChasePostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_CarleneIntro:
+    .string "Let's battle!$"
+
+Route6_Text_CarleneDefeat:
+    .string "Dang!$"
+
+Route6_Text_CarlenePostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_CarltonIntro:
+    .string "Let's battle!$"
+
+Route6_Text_CarltonDefeat:
+    .string "Dang!$"
+
+Route6_Text_CarltonPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_ArnoldoIntro:
+    .string "Let's battle!$"
+
+Route6_Text_ArnoldoDefeat:
+    .string "Dang!$"
+
+Route6_Text_ArnoldoPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_RashadIntro:
+    .string "Let's battle!$"
+
+Route6_Text_RashadDefeat:
+    .string "Dang!$"
+
+Route6_Text_RashadPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_GingerIntro:
+    .string "Let's battle!$"
+
+Route6_Text_GingerDefeat:
+    .string "Dang!$"
+
+Route6_Text_GingerPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_LincolnIntro:
+    .string "Let's battle!$"
+
+Route6_Text_LincolnDefeat:
+    .string "Dang!$"
+
+Route6_Text_LincolnPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_RogerIntro:
+    .string "Let's battle!$"
+
+Route6_Text_RogerDefeat:
+    .string "Dang!$"
+
+Route6_Text_RogerPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_TimothyIntro:
+    .string "Let's battle!$"
+
+Route6_Text_TimothyDefeat:
+    .string "Dang!$"
+
+Route6_Text_TimothyPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_KellyIntro:
+    .string "Let's battle!$"
+
+Route6_Text_KellyDefeat:
+    .string "Dang!$"
+
+Route6_Text_KellyPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_JewelIntro:
+    .string "Let's battle!$"
+
+Route6_Text_JewelDefeat:
+    .string "Dang!$"
+
+Route6_Text_JewelPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_DarnellIntro:
+    .string "Let's battle!$"
+
+Route6_Text_DarnellDefeat:
+    .string "Dang!$"
+
+Route6_Text_DarnellPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_MauroIntro:
+    .string "Let's battle!$"
+
+Route6_Text_MauroDefeat:
+    .string "Dang!$"
+
+Route6_Text_MauroPostBattle:
+    .string "It sucks to lose!$"
+
+Route6_Text_NewtonIntro:
+    .string "Let's battle!$"
+
+Route6_Text_NewtonDefeat:
+    .string "Dang!$"
+
+Route6_Text_NewtonPostBattle:
+    .string "It sucks to lose!$"
+
+Route7_Text_CarolineIntro:
+    .string "Let's battle!$"
+
+Route7_Text_CarolineDefeat:
+    .string "Dang!$"
+
+Route7_Text_CarolinePostBattle:
+    .string "It sucks to lose!$"
+
+Route7_Text_ShelbyIntro:
+    .string "Let's battle!$"
+
+Route7_Text_ShelbyDefeat:
+    .string "Dang!$"
+
+Route7_Text_ShelbyPostBattle:
+    .string "It sucks to lose!$"
+
+Route7_Text_VioletIntro:
+    .string "Let's battle!$"
+
+Route7_Text_VioletDefeat:
+    .string "Dang!$"
+
+Route7_Text_VioletPostBattle:
+    .string "It sucks to lose!$"
+
+Route7_Text_SanfordIntro:
+    .string "Let's battle!$"
+
+Route7_Text_SanfordDefeat:
+    .string "Dang!$"
+
+Route7_Text_SanfordPostBattle:
+    .string "It sucks to lose!$"
+
+Route7_Text_DarrellIntro:
+    .string "Let's battle!$"
+
+Route7_Text_DarrellDefeat:
+    .string "Dang!$"
+
+Route7_Text_DarrellPostBattle:
+    .string "It sucks to lose!$"
+
+Route7_Text_DorisIntro:
+    .string "Let's battle!$"
+
+Route7_Text_DorisDefeat:
+    .string "Dang!$"
+
+Route7_Text_DorisPostBattle:
+    .string "It sucks to lose!$"
+
+Route9_Text_AdamIntro:
+    .string "Let's battle!$"
+
+Route9_Text_AdamDefeat:
+    .string "Dang!$"
+
+Route9_Text_AdamPostBattle:
+    .string "It sucks to lose!$"
+
+Route9_Text_PamCeceIntro:
+    .string "Let's battle!$"
+
+Route9_Text_PamCeceDefeat:
+    .string "Dang!$"
+
+Route9_Text_PamCecePostBattle:
+    .string "It sucks to lose!$"
+
+Route9_Text_BuckIntro:
+    .string "Let's battle!$"
+
+Route9_Text_BuckDefeat:
+    .string "Dang!$"
+
+Route9_Text_BuckPostBattle:
+    .string "It sucks to lose!$"
+
+Route9_Text_CandiceIntro:
+    .string "Let's battle!$"
+
+Route9_Text_CandiceDefeat:
+    .string "Dang!$"
+
+Route9_Text_CandicePostBattle:
+    .string "It sucks to lose!$"
+
+Route9_Text_AnnaIntro:
+    .string "Let's battle!$"
+
+Route9_Text_AnnaDefeat:
+    .string "Dang!$"
+
+Route9_Text_AnnaPostBattle:
+    .string "It sucks to lose!$"
+
+

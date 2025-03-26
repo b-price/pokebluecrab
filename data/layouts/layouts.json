@@ -607,7 +607,7 @@
       "width": 14,
       "height": 9,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_PokemonCenter",
+      "secondary_tileset": "gTileset_PokemonCenterPBC",
       "border_filepath": "data/layouts/PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonCenter_1F/map.bin"
     },
@@ -617,7 +617,7 @@
       "width": 14,
       "height": 10,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_PokemonCenter",
+      "secondary_tileset": "gTileset_PokemonCenterPBC",
       "border_filepath": "data/layouts/PokemonCenter_2F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonCenter_2F/map.bin"
     },
@@ -627,7 +627,7 @@
       "width": 11,
       "height": 8,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Shop",
+      "secondary_tileset": "gTileset_ShopPBC",
       "border_filepath": "data/layouts/Mart/border.bin",
       "blockdata_filepath": "data/layouts/Mart/map.bin"
     },
@@ -4605,7 +4605,7 @@
       "id": "LAYOUT_ROUTE9_2",
       "name": "Route9_2_Layout",
       "width": 54,
-      "height": 28,
+      "height": 30,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Frederick",
       "border_filepath": "data/layouts/Route9_2/border.bin",
@@ -4847,7 +4847,7 @@
       "width": 56,
       "height": 128,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Rustboro",
+      "secondary_tileset": "gTileset_Salisbury",
       "border_filepath": "data/layouts/Route21/border.bin",
       "blockdata_filepath": "data/layouts/Route21/map.bin"
     },
@@ -4857,7 +4857,7 @@
       "width": 120,
       "height": 24,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Rustboro",
+      "secondary_tileset": "gTileset_Salisbury",
       "border_filepath": "data/layouts/Route22/border.bin",
       "blockdata_filepath": "data/layouts/Route22/map.bin"
     },
@@ -5150,6 +5150,26 @@
       "secondary_tileset": "gTileset_BaltimoreGym",
       "border_filepath": "data/layouts/Baltimore_Gym/border.bin",
       "blockdata_filepath": "data/layouts/Baltimore_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANNAPOLIS_FLOWER_SHOP",
+      "name": "Annapolis_FlowerShop_Layout",
+      "width": 15,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PrettyPetalFlowerShop",
+      "border_filepath": "data/layouts/Annapolis_FlowerShop/border.bin",
+      "blockdata_filepath": "data/layouts/Annapolis_FlowerShop/map.bin"
+    },
+    {
+      "id": "LAYOUT_BALTIMORE_POKEMON_CENTER_1F",
+      "name": "Baltimore_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenterPBC",
+      "border_filepath": "data/layouts/Baltimore_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Baltimore_PokemonCenter_1F/map.bin"
     }
   ]
 }

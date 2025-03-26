@@ -5,6 +5,7 @@
 #define METATILE_Annapolis_Door_Brown         0x2AF
 #define METATILE_Annapolis_Door_HavreDeGrace  0x35C
 #define METATILE_Annapolis_Door_Tan           0x2BF
+#define METATILE_Annapolis_LongGrass_Root     0x2DB
 
 // gTileset_Arnold
 #define METATILE_Arnold_Door_Arnold         0x248
@@ -260,6 +261,7 @@
 #define METATILE_General_Grass_TreeRight       0x1CF
 #define METATILE_General_Grass_TreeUp          0x00E
 #define METATILE_General_LongGrass             0x015
+#define METATILE_General_LongGrass_Root        0x02A
 #define METATILE_General_MuddySlope_Frame0     0x0E8
 #define METATILE_General_MuddySlope_Frame1     0x0E9
 #define METATILE_General_MuddySlope_Frame2     0x0EA
@@ -435,6 +437,7 @@
 
 // gTileset_OceanCity
 #define METATILE_OceanCity_Door_Sliding  0x30A
+#define METATILE_OceanCity_RoughWater    0x398
 
 // gTileset_Pacifidlog
 #define METATILE_Pacifidlog_Door                               0x21A
@@ -509,6 +512,7 @@
 // gTileset_Salisbury
 #define METATILE_Salisbury_Door_Normal      0x2BD
 #define METATILE_Salisbury_Door_SafariZone  0x2D2
+#define METATILE_Salisbury_RoughWater       0x398
 
 // gTileset_SecretBase
 #define METATILE_SecretBase_AttractMat_BottomLeft       0x313

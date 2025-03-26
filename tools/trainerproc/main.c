@@ -1889,7 +1889,7 @@ int main(int argc, char *argv[])
     FILE *output_file = NULL;
     unsigned char *source_buffer = NULL;
     struct Parsed parsed = {
-        .default_ivs = { 31, 31, 31, 31, 31, 31 },
+        .default_ivs = { 15, 15, 15, 15, 15, 15 },
         .default_level = 100,
     };
 

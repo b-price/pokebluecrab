@@ -726,10 +726,12 @@
     "Annapolis_Gym",
     "Annapolis_PokemonCenter_1F",
     "Annapolis_PokemonCenter_2F",
-    "Annapolis_Mart"
+    "Annapolis_Mart",
+    "Annapolis_FlowerShop"
   ],
   "gMapGroup_IndoorBaltimore": [
-    "Baltimore_Gym"
+    "Baltimore_Gym",
+    "Baltimore_PokemonCenter_1F"
   ],
   "gMapGroup_IndoorHavreDeGrace": [
 

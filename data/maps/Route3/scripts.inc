@@ -184,6 +184,27 @@ Route3_EventScript_Slowbro::
     waitmoncry
     release
     end
+
+Route3_EventScript_Helen::
+	trainerbattle_single TRAINER_HELEN, Route3_Text_HelenIntro, Route3_Text_HelenDefeat
+	msgbox Route3_Text_HelenPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route3_EventScript_Gilberto::
+	trainerbattle_single TRAINER_GILBERTO, Route3_Text_GilbertoIntro, Route3_Text_GilbertoDefeat
+	msgbox Route3_Text_GilbertoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route3_EventScript_Darren::
+	trainerbattle_single TRAINER_DARREN, Route3_Text_DarrenIntro, Route3_Text_DarrenDefeat
+	msgbox Route3_Text_DarrenPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route3_EventScript_Brad::
+	trainerbattle_single TRAINER_BRAD, Route3_Text_BradIntro, Route3_Text_BradDefeat
+	msgbox Route3_Text_BradPostBattle, MSGBOX_AUTOCLOSE
+	end
+
     
 Route3_Text_MayRoute3Pokemon:
 	.string "MAY: Let's see… The POKéMON found\n"
