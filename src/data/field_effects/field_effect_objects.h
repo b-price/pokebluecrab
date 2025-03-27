@@ -174,7 +174,7 @@ static const union AnimCmd *const sAnimTable_Ash[] =
 
 const struct SpriteTemplate gFieldEffectObjectTemplate_Ash = {
     .tileTag = TAG_NONE,
-    .paletteTag = FLDEFF_PAL_TAG_GENERAL_1,
+    .paletteTag = FLDEFF_PAL_TAG_GENERAL_10,
     .oam = &gObjectEventBaseOam_16x16,
     .anims = sAnimTable_Ash,
     .images = sPicTable_Ash,

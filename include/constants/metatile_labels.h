@@ -434,7 +434,9 @@
 #define METATILE_MossdeepGym_YellowArrow_Right  0x250
 
 // gTileset_Oakland
+#define METATILE_Oakland_AshGrass     0x20A
 #define METATILE_Oakland_Door_Normal  0x2A5
+#define METATILE_Oakland_NormalGrass  0x212
 
 // gTileset_OceanCity
 #define METATILE_OceanCity_Door_Sliding  0x30A
