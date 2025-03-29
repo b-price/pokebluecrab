@@ -27,6 +27,11 @@
       "map": "MAP_ROUTE23",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_CAMBRIDGE_UNDERWATER",
+      "offset": 0,
+      "direction": "dive"
     }
   ],
   "object_events": [

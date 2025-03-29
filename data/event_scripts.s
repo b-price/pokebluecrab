@@ -1305,3 +1305,15 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Annapolis_FlowerShop/scripts.inc"
 
 	.include "data/maps/Baltimore_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/Cambridge_Underwater/scripts.inc"
+
+	.include "data/maps/Route18_Underwater/scripts.inc"
+
+	.include "data/maps/Route21_Underwater/scripts.inc"
+
+	.include "data/maps/Route23_Underwater/scripts.inc"
+
+	.include "data/maps/Route24_Underwater/scripts.inc"
+
+	.include "data/maps/Route29_Underwater/scripts.inc"

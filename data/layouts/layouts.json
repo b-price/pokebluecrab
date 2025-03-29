@@ -4805,7 +4805,7 @@
       "id": "LAYOUT_ROUTE19",
       "name": "Route19_Layout",
       "width": 48,
-      "height": 24,
+      "height": 26,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Salisbury",
       "border_filepath": "data/layouts/Route19/border.bin",
@@ -4855,7 +4855,7 @@
       "id": "LAYOUT_ROUTE22",
       "name": "Route22_Layout",
       "width": 120,
-      "height": 24,
+      "height": 26,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Salisbury",
       "border_filepath": "data/layouts/Route22/border.bin",
@@ -4877,7 +4877,7 @@
       "width": 104,
       "height": 50,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Rustboro",
+      "secondary_tileset": "gTileset_Cambridge",
       "border_filepath": "data/layouts/Route24/border.bin",
       "blockdata_filepath": "data/layouts/Route24/map.bin"
     },
@@ -5170,6 +5170,66 @@
       "secondary_tileset": "gTileset_PokemonCenterPBC",
       "border_filepath": "data/layouts/Baltimore_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/Baltimore_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAMBRIDGE_UNDERWATER",
+      "name": "Cambridge_Underwater_Layout",
+      "width": 40,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Underwater",
+      "border_filepath": "data/layouts/Cambridge_Underwater/border.bin",
+      "blockdata_filepath": "data/layouts/Cambridge_Underwater/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE18_UNDERWATER",
+      "name": "Route18_Underwater_Layout",
+      "width": 40,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Underwater",
+      "border_filepath": "data/layouts/Route18_Underwater/border.bin",
+      "blockdata_filepath": "data/layouts/Route18_Underwater/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE21_UNDERWATER",
+      "name": "Route21_Underwater_Layout",
+      "width": 56,
+      "height": 128,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Underwater",
+      "border_filepath": "data/layouts/Route21_Underwater/border.bin",
+      "blockdata_filepath": "data/layouts/Route21_Underwater/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE23_UNDERWATER",
+      "name": "Route23_Underwater_Layout",
+      "width": 20,
+      "height": 210,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Underwater",
+      "border_filepath": "data/layouts/Route23_Underwater/border.bin",
+      "blockdata_filepath": "data/layouts/Route23_Underwater/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE24_UNDERWATER",
+      "name": "Route24_Underwater_Layout",
+      "width": 104,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Underwater",
+      "border_filepath": "data/layouts/Route24_Underwater/border.bin",
+      "blockdata_filepath": "data/layouts/Route24_Underwater/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE29_UNDERWATER",
+      "name": "Route29_Underwater_Layout",
+      "width": 72,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Underwater",
+      "border_filepath": "data/layouts/Route29_Underwater/border.bin",
+      "blockdata_filepath": "data/layouts/Route29_Underwater/map.bin"
     }
   ]
 }

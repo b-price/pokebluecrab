@@ -166,7 +166,13 @@
     "DC",
     "StMichaels",
     "Route29",
-    "SevernaPark_House3"
+    "SevernaPark_House3",
+    "Cambridge_Underwater",
+    "Route18_Underwater",
+    "Route21_Underwater",
+    "Route23_Underwater",
+    "Route24_Underwater",
+    "Route29_Underwater"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
