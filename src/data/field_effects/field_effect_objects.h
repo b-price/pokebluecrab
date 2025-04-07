@@ -111,7 +111,18 @@ const struct SpriteTemplate gFieldEffectObjectTemplate_TallGrassAltPal = {
         .callback = UpdateTallGrassAltPalFieldEffect,
 };
 
+const struct SpriteTemplate gFieldEffectObjectTemplate_TallGrassYellow = {
+        .tileTag = TAG_NONE,
+        .paletteTag = FLDEFF_PAL_TAG_GENERAL_5,
+        .oam = &gObjectEventBaseOam_16x16,
+        .anims = sAnimTable_TallGrass,
+        .images = sPicTable_TallGrass,
+        .affineAnims = gDummySpriteAffineAnimTable,
+        .callback = UpdateTallGrassYellowFieldEffect,
+};
+
 const struct SpritePalette gSpritePalette_GeneralFieldEffect10 = {gFieldEffectObjectPalette10, FLDEFF_PAL_TAG_GENERAL_10};
+const struct SpritePalette gSpritePalette_GeneralFieldEffect5 = {gFieldEffectObjectPalette5, FLDEFF_PAL_TAG_GENERAL_5};
 
 static const struct SpriteFrameImage sPicTable_Ripple[] = {
     overworld_frame(gFieldEffectObjectPic_Ripple, 2, 2, 0),
@@ -703,6 +714,16 @@ const struct SpriteTemplate gFieldEffectObjectTemplate_LongGrass = {
     .images = sPicTable_LongGrass,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = UpdateLongGrassFieldEffect,
+};
+
+const struct SpriteTemplate gFieldEffectObjectTemplate_LongGrassYellow = {
+        .tileTag = TAG_NONE,
+        .paletteTag = FLDEFF_PAL_TAG_GENERAL_5,
+        .oam = &gObjectEventBaseOam_16x16,
+        .anims = sAnimTable_LongGrass,
+        .images = sPicTable_LongGrass,
+        .affineAnims = gDummySpriteAffineAnimTable,
+        .callback = UpdateLongGrassYellowFieldEffect,
 };
 
 static const struct SpriteFrameImage sPicTable_JumpLongGrass[] = {

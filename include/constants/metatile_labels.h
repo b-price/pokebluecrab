@@ -325,7 +325,13 @@
 #define METATILE_KentIsland_SubmergedLogs_VerticalTop          0x2EE
 
 // gTileset_LaPlata
-#define METATILE_LaPlata_Door_Normal  0x246
+#define METATILE_LaPlata_Door_Normal            0x246
+#define METATILE_LaPlata_GrassYellow            0x259
+#define METATILE_LaPlata_LongGrass_Yellow       0x215
+#define METATILE_LaPlata_LongGrass_Yellow_Root  0x214
+#define METATILE_LaPlata_TallGrassYellow        0x20D
+#define METATILE_LaPlata_TallGrass_TreeLeft     0x204
+#define METATILE_LaPlata_TallGrass_TreeRight    0x205
 
 // gTileset_Lavaridge
 #define METATILE_Lavaridge_AshGrass             0x207

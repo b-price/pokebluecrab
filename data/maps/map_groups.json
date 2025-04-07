@@ -172,7 +172,10 @@
     "Route21_Underwater",
     "Route23_Underwater",
     "Route24_Underwater",
-    "Route29_Underwater"
+    "Route29_Underwater",
+    "FortCarroll",
+    "Route30",
+    "Route31"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -509,7 +512,8 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave"
+    "MeteorFalls_StevensCave",
+    "SusquehannaCave_1F"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
@@ -782,7 +786,7 @@
 
   ],
   "gMapGroup_IndoorRoute3": [
-
+    "HarborTunnel"
   ],
   "gMapGroup_IndoorRoute7": [
 

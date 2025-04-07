@@ -32,6 +32,16 @@
       "map": "MAP_ROUTE29",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_FORT_CARROLL",
+      "offset": 21,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE30",
+      "offset": 0,
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -63,15 +73,15 @@
       "x": 21,
       "y": 41,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE3",
-      "dest_warp_id": "2"
+      "dest_map": "MAP_HARBOR_TUNNEL",
+      "dest_warp_id": "7"
     },
     {
       "x": 9,
       "y": 41,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE3",
-      "dest_warp_id": "4"
+      "dest_map": "MAP_HARBOR_TUNNEL",
+      "dest_warp_id": "6"
     },
     {
       "x": 11,

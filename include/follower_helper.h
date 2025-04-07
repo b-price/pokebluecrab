@@ -111,6 +111,8 @@ enum {
     COND_MSG_LEAVES,
     COND_MSG_ICE,
     COND_MSG_BURN,
+    COND_MSG_GRASS_2,
+    COND_MSG_GRASS_3,
     COND_MSG_COUNT,
 };
 

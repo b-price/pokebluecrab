@@ -39,6 +39,8 @@ extern const struct SpriteTemplate gFieldEffectObjectTemplate_SlitherTracks;
 extern const struct SpriteTemplate gFieldEffectObjectTemplate_BugTracks;
 extern const struct SpriteTemplate gFieldEffectObjectTemplate_SpotTracks;
 extern const struct SpriteTemplate gFieldEffectObjectTemplate_TallGrassAltPal;
+extern const struct SpriteTemplate gFieldEffectObjectTemplate_TallGrassYellow;
+extern const struct SpriteTemplate gFieldEffectObjectTemplate_LongGrassYellow;
 
 const struct SpriteTemplate *const gFieldEffectObjectTemplatePointers[] = {
     [FLDEFFOBJ_SHADOW_S]              = &gFieldEffectObjectTemplate_ShadowSmall,
@@ -82,4 +84,6 @@ const struct SpriteTemplate *const gFieldEffectObjectTemplatePointers[] = {
     [FLDEFFOBJ_TRACKS_SPOT]           = &gFieldEffectObjectTemplate_SpotTracks,
     [FLDEFFOBJ_TRACKS_BUG]            = &gFieldEffectObjectTemplate_BugTracks,
     [FLDEFFOBJ_TALL_GRASS_ALT_PAL]    = &gFieldEffectObjectTemplate_TallGrassAltPal,
+    [FLDEFFOBJ_TALL_GRASS_YELLOW]     = &gFieldEffectObjectTemplate_TallGrassYellow,
+    [FLDEFFOBJ_LONG_GRASS_YELLOW]     = &gFieldEffectObjectTemplate_LongGrassYellow
 };

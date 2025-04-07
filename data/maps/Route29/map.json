@@ -27,6 +27,16 @@
       "map": "MAP_ROUTE29_UNDERWATER",
       "offset": 0,
       "direction": "dive"
+    },
+    {
+      "map": "MAP_ROUTE5",
+      "offset": -62,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_FORT_CARROLL",
+      "offset": 0,
+      "direction": "down"
     }
   ],
   "object_events": [

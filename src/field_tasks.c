@@ -77,26 +77,26 @@ static const TaskFunc sPerStepCallbacks[] =
 // i.e. the element with an offset of 0,0 is the one the player is standing on.
 static const struct PacifidlogMetatileOffsets sHalfSubmergedBridgeMetatileOffsets[] =
 {
-    { 0,  0, METATILE_Pacifidlog_HalfSubmergedLogs_VerticalTop}, {0, 1, METATILE_Pacifidlog_HalfSubmergedLogs_VerticalBottom},
-    { 0, -1, METATILE_Pacifidlog_HalfSubmergedLogs_VerticalTop}, {0, 0, METATILE_Pacifidlog_HalfSubmergedLogs_VerticalBottom},
-    { 0,  0, METATILE_Pacifidlog_HalfSubmergedLogs_HorizontalLeft}, {1, 0, METATILE_Pacifidlog_HalfSubmergedLogs_HorizontalRight},
-    {-1,  0, METATILE_Pacifidlog_HalfSubmergedLogs_HorizontalLeft}, {0, 0, METATILE_Pacifidlog_HalfSubmergedLogs_HorizontalRight}
+    { 0,  0, METATILE_KentIsland_HalfSubmergedLogs_VerticalTop}, {0, 1, METATILE_KentIsland_HalfSubmergedLogs_VerticalBottom},
+    { 0, -1, METATILE_KentIsland_HalfSubmergedLogs_VerticalTop}, {0, 0, METATILE_KentIsland_HalfSubmergedLogs_VerticalBottom},
+    { 0,  0, METATILE_KentIsland_HalfSubmergedLogs_HorizontalLeft}, {1, 0, METATILE_KentIsland_HalfSubmergedLogs_HorizontalRight},
+    {-1,  0, METATILE_KentIsland_HalfSubmergedLogs_HorizontalLeft}, {0, 0, METATILE_KentIsland_HalfSubmergedLogs_HorizontalRight}
 };
 
 static const struct PacifidlogMetatileOffsets sFullySubmergedBridgeMetatileOffsets[] =
 {
-    { 0,  0, METATILE_Pacifidlog_SubmergedLogs_VerticalTop}, {0, 1, METATILE_Pacifidlog_SubmergedLogs_VerticalBottom},
-    { 0, -1, METATILE_Pacifidlog_SubmergedLogs_VerticalTop}, {0, 0, METATILE_Pacifidlog_SubmergedLogs_VerticalBottom},
-    { 0,  0, METATILE_Pacifidlog_SubmergedLogs_HorizontalLeft}, {1, 0, METATILE_Pacifidlog_SubmergedLogs_HorizontalRight},
-    {-1,  0, METATILE_Pacifidlog_SubmergedLogs_HorizontalLeft}, {0, 0, METATILE_Pacifidlog_SubmergedLogs_HorizontalRight}
+    { 0,  0, METATILE_KentIsland_SubmergedLogs_VerticalTop}, {0, 1, METATILE_KentIsland_SubmergedLogs_VerticalBottom},
+    { 0, -1, METATILE_KentIsland_SubmergedLogs_VerticalTop}, {0, 0, METATILE_KentIsland_SubmergedLogs_VerticalBottom},
+    { 0,  0, METATILE_KentIsland_SubmergedLogs_HorizontalLeft}, {1, 0, METATILE_KentIsland_SubmergedLogs_HorizontalRight},
+    {-1,  0, METATILE_KentIsland_SubmergedLogs_HorizontalLeft}, {0, 0, METATILE_KentIsland_SubmergedLogs_HorizontalRight}
 };
 
 static const struct PacifidlogMetatileOffsets sFloatingBridgeMetatileOffsets[] =
 {
-    { 0,  0, METATILE_Pacifidlog_FloatingLogs_VerticalTop}, {0, 1, METATILE_Pacifidlog_FloatingLogs_VerticalBottom},
-    { 0, -1, METATILE_Pacifidlog_FloatingLogs_VerticalTop}, {0, 0, METATILE_Pacifidlog_FloatingLogs_VerticalBottom},
-    { 0,  0, METATILE_Pacifidlog_FloatingLogs_HorizontalLeft}, {1, 0, METATILE_Pacifidlog_FloatingLogs_HorizontalRight},
-    {-1,  0, METATILE_Pacifidlog_FloatingLogs_HorizontalLeft}, {0, 0, METATILE_Pacifidlog_FloatingLogs_HorizontalRight}
+    { 0,  0, METATILE_KentIsland_FloatingLogs_VerticalTop}, {0, 1, METATILE_KentIsland_FloatingLogs_VerticalBottom},
+    { 0, -1, METATILE_KentIsland_FloatingLogs_VerticalTop}, {0, 0, METATILE_KentIsland_FloatingLogs_VerticalBottom},
+    { 0,  0, METATILE_KentIsland_FloatingLogs_HorizontalLeft}, {1, 0, METATILE_KentIsland_FloatingLogs_HorizontalRight},
+    {-1,  0, METATILE_KentIsland_FloatingLogs_HorizontalLeft}, {0, 0, METATILE_KentIsland_FloatingLogs_HorizontalRight}
 };
 
 // Each element corresponds to a y coordinate row in the sootopolis gym 1F map.

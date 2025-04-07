@@ -76,6 +76,8 @@
 #define FLDEFF_TRACKS_SPOT               71
 #define FLDEFF_TRACKS_BUG                72
 #define FLDEFF_TALL_GRASS_ALT_PAL        73
+#define FLDEFF_TALL_GRASS_YELLOW         74
+#define FLDEFF_LONG_GRASS_YELLOW         75
 
 #define FLDEFFOBJ_SHADOW_S              0
 #define FLDEFFOBJ_SHADOW_M              1
@@ -118,6 +120,8 @@
 #define FLDEFFOBJ_TRACKS_SPOT           38
 #define FLDEFFOBJ_TRACKS_BUG            39
 #define FLDEFFOBJ_TALL_GRASS_ALT_PAL    40
+#define FLDEFFOBJ_TALL_GRASS_YELLOW     41
+#define FLDEFFOBJ_LONG_GRASS_YELLOW     42
 
 
 #define FLDEFF_PAL_TAG_CUT_GRASS          0x1000
@@ -133,5 +137,6 @@
 #define FLDEFF_PAL_TAG_HOF_MONITOR        0x1010
 #define FLDEFF_PAL_TAG_UNKNOWN            0x1011
 #define FLDEFF_PAL_TAG_GENERAL_10         0x1012
+#define FLDEFF_PAL_TAG_GENERAL_5          0x1013
 
 #endif // GUARD_FIELD_EFFECT_CONSTANTS_H

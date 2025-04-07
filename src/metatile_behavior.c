@@ -11,11 +11,14 @@ static const u8 sTileBitAttributes[NUM_METATILE_BEHAVIORS] =
     [MB_NORMAL]                             = TILE_FLAG_UNUSED,
     [MB_TALL_GRASS]                         = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_LONG_GRASS]                         = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
+    [MB_LONG_GRASS_YELLOW]                  = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_TALL_GRASS_ALT_PAL]                 = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
+    [MB_TALL_GRASS_YELLOW]                  = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_DEEP_SAND]                          = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_SHORT_GRASS]                        = TILE_FLAG_UNUSED,
     [MB_CAVE]                               = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_LONG_GRASS_SOUTH_EDGE]              = TILE_FLAG_UNUSED,
+    [MB_LONG_GRASS_YELLOW_SOUTH_EDGE]       = TILE_FLAG_UNUSED,
     [MB_NO_RUNNING]                         = TILE_FLAG_UNUSED,
     [MB_INDOOR_ENCOUNTER]                   = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_MOUNTAIN_TOP]                       = TILE_FLAG_UNUSED,
@@ -182,7 +185,11 @@ bool8 MetatileBehavior_IsJumpSouth(u8 metatileBehavior)
 
 bool8 MetatileBehavior_IsPokeGrass(u8 metatileBehavior)
 {
-    if (metatileBehavior == MB_TALL_GRASS || metatileBehavior == MB_LONG_GRASS)
+    if (metatileBehavior == MB_TALL_GRASS
+        || metatileBehavior == MB_LONG_GRASS
+        || metatileBehavior == MB_TALL_GRASS_ALT_PAL
+        || metatileBehavior == MB_TALL_GRASS_YELLOW
+        || metatileBehavior == MB_LONG_GRASS_YELLOW)
         return TRUE;
     else
         return FALSE;
@@ -361,14 +368,6 @@ bool8 MetatileBehavior_IsIce_2(u8 metatileBehavior)
 bool8 MetatileBehavior_IsTrickHouseSlipperyFloor(u8 metatileBehavior)
 {
     if (metatileBehavior == MB_TRICK_HOUSE_PUZZLE_8_FLOOR)
-        return TRUE;
-    else
-        return FALSE;
-}
-
-bool8 Unref_MetatileBehavior_IsUnused05(u8 metatileBehavior)
-{
-    if (metatileBehavior == MB_UNUSED_05)
         return TRUE;
     else
         return FALSE;
@@ -742,9 +741,25 @@ bool8 MetatileBehavior_IsTallGrassAltPal(u8 metatileBehavior)
         return FALSE;
 }
 
+bool8 MetatileBehavior_IsTallGrassYellow(u8 metatileBehavior)
+{
+    if (metatileBehavior == MB_TALL_GRASS_YELLOW)
+        return TRUE;
+    else
+        return FALSE;
+}
+
 bool8 MetatileBehavior_IsLongGrass(u8 metatileBehavior)
 {
     if (metatileBehavior == MB_LONG_GRASS)
+        return TRUE;
+    else
+        return FALSE;
+}
+
+bool8 MetatileBehavior_IsLongGrassYellow(u8 metatileBehavior)
+{
+    if (metatileBehavior == MB_LONG_GRASS_YELLOW)
         return TRUE;
     else
         return FALSE;
@@ -1396,6 +1411,14 @@ bool8 MetatileBehavior_IsLongGrass_Duplicate(u8 metatileBehavior)
 bool8 MetatileBehavior_IsLongGrassSouthEdge(u8 metatileBehavior)
 {
     if (metatileBehavior == MB_LONG_GRASS_SOUTH_EDGE)
+        return TRUE;
+    else
+        return FALSE;
+}
+
+bool8 MetatileBehavior_IsLongGrassYellowSouthEdge(u8 metatileBehavior)
+{
+    if (metatileBehavior == MB_LONG_GRASS_YELLOW_SOUTH_EDGE)
         return TRUE;
     else
         return FALSE;

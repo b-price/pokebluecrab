@@ -80,6 +80,8 @@ gFieldEffectScriptPointers::
 	.4byte gFieldEffectScript_TracksBug                 @ FLDEFF_TRACKS_BUG
 	.4byte gFieldEffectScript_TracksSpot                @ FLDEFF_TRACKS_SPOT
     .4byte gFieldEffectScript_TallGrassAltPal           @ FLDEFF_TALL_GRASS_ALT_PAL
+    .4byte gFieldEffectScript_TallGrassYellow           @ FLDEFF_TALL_GRASS_YELLOW
+    .4byte gFieldEffectScript_LongGrassYellow           @ FLDEFF_LONG_GRASS_YELLOW
 
 gFieldEffectScript_ExclamationMarkIcon1::
 	field_eff_callnative FldEff_ExclamationMarkIcon
@@ -378,4 +380,12 @@ gFieldEffectScript_TracksSlither::
 
 gFieldEffectScript_TallGrassAltPal::
     field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEffect10, FldEff_TallGrassAltPal
+    field_eff_end
+
+gFieldEffectScript_TallGrassYellow::
+    field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEffect5, FldEff_TallGrassYellow
+    field_eff_end
+
+gFieldEffectScript_LongGrassYellow::
+    field_eff_loadfadedpal_callnative gSpritePalette_GeneralFieldEffect5, FldEff_LongGrassYellow
     field_eff_end

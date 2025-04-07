@@ -1317,3 +1317,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route24_Underwater/scripts.inc"
 
 	.include "data/maps/Route29_Underwater/scripts.inc"
+
+	.include "data/maps/FortCarroll/scripts.inc"
+
+	.include "data/maps/HarborTunnel/scripts.inc"
+
+	.include "data/maps/Route30/scripts.inc"
+
+	.include "data/maps/Route31/scripts.inc"
+
+	.include "data/maps/SusquehannaCave_1F/scripts.inc"

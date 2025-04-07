@@ -4904,7 +4904,7 @@
     {
       "id": "LAYOUT_ROUTE29",
       "name": "Route29_Layout",
-      "width": 72,
+      "width": 88,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Baltimore",
@@ -5224,12 +5224,62 @@
     {
       "id": "LAYOUT_ROUTE29_UNDERWATER",
       "name": "Route29_Underwater_Layout",
-      "width": 72,
+      "width": 88,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Route29_Underwater/border.bin",
       "blockdata_filepath": "data/layouts/Route29_Underwater/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORT_CARROLL",
+      "name": "FortCarroll_Layout",
+      "width": 40,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Baltimore",
+      "border_filepath": "data/layouts/FortCarroll/border.bin",
+      "blockdata_filepath": "data/layouts/FortCarroll/map.bin"
+    },
+    {
+      "id": "LAYOUT_HARBOR_TUNNEL",
+      "name": "HarborTunnel_Layout",
+      "width": 30,
+      "height": 50,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BikeShopPBC",
+      "border_filepath": "data/layouts/HarborTunnel/border.bin",
+      "blockdata_filepath": "data/layouts/HarborTunnel/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE30",
+      "name": "Route30_Layout",
+      "width": 36,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Baltimore",
+      "border_filepath": "data/layouts/Route30/border.bin",
+      "blockdata_filepath": "data/layouts/Route30/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE31",
+      "name": "Route31_Layout",
+      "width": 48,
+      "height": 74,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_OceanCity",
+      "border_filepath": "data/layouts/Route31/border.bin",
+      "blockdata_filepath": "data/layouts/Route31/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUSQUEHANNA_CAVE_1F",
+      "name": "SusquehannaCave_1F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SusquehannaCave_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SusquehannaCave_1F/map.bin"
     }
   ]
 }

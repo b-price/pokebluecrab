@@ -350,6 +350,24 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_STATUS(STATUS1_BURN),
         },
     },
+    [COND_MSG_GRASS_2] =
+        {
+            .text = sCondMsg20,
+            .emotion = FOLLOWER_EMOTION_MUSIC,
+            .conditions =
+                {
+                    MATCH_ON_MB(MB_TALL_GRASS_ALT_PAL, MB_TALL_GRASS_YELLOW),
+                },
+        },
+        [COND_MSG_GRASS_3] =
+                {
+                        .text = sCondMsg20,
+                        .emotion = FOLLOWER_EMOTION_MUSIC,
+                        .conditions =
+                                {
+                                        MATCH_ON_MB(MB_LONG_GRASS_YELLOW, MB_LONG_GRASS),
+                                },
+                },
 };
 
 // Pool of "unconditional" follower messages

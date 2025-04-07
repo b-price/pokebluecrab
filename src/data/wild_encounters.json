@@ -73,6 +73,23 @@
               9
             ]
           }
+        },
+        {
+          "type": "long_grass_mons",
+          "encounter_rates": [
+            20,
+            20,
+            10,
+            10,
+            10,
+            10,
+            5,
+            5,
+            4,
+            4,
+            1,
+            1
+          ]
         }
       ],
       "encounters": [

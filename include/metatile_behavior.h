@@ -166,5 +166,8 @@ bool8 MetatileBehavior_IsSidewaysStairsLeftSideBottom(u8 metatileBehavior);
 bool8 MetatileBehavior_IsSidewaysStairsRightSideAny(u8 metatileBehavior);
 bool8 MetatileBehavior_IsSidewaysStairsLeftSideAny(u8 metatileBehavior);
 bool8 MetatileBehavior_IsTallGrassAltPal(u8);
+bool8 MetatileBehavior_IsTallGrassYellow(u8);
+bool8 MetatileBehavior_IsLongGrassYellow(u8);
+bool8 MetatileBehavior_IsLongGrassYellowSouthEdge(u8);
 
 #endif // GUARD_METATILE_BEHAVIOR_H

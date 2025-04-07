@@ -240,29 +240,29 @@
       "x": 21,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_BALTIMORE",
+      "dest_map": "MAP_HARBOR_TUNNEL",
       "dest_warp_id": "3"
     },
     {
       "x": 22,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_BALTIMORE",
-      "dest_warp_id": "3"
+      "dest_map": "MAP_HARBOR_TUNNEL",
+      "dest_warp_id": "5"
     },
     {
       "x": 9,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_BALTIMORE",
-      "dest_warp_id": "4"
+      "dest_map": "MAP_HARBOR_TUNNEL",
+      "dest_warp_id": "0"
     },
     {
       "x": 10,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_BALTIMORE",
-      "dest_warp_id": "4"
+      "dest_map": "MAP_HARBOR_TUNNEL",
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [
