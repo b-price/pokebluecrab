@@ -244,35 +244,35 @@
       "x": 97,
       "y": 28,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE4",
-      "dest_warp_id": "2"
+      "dest_map": "MAP_SUSQUEHANNA_CAVE_1F",
+      "dest_warp_id": "0"
     },
     {
       "x": 111,
       "y": 28,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE4",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_SUSQUEHANNA_CAVE_1F",
+      "dest_warp_id": "1"
     },
     {
       "x": 110,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE4",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_SUSQUEHANNA_CAVE_1F",
+      "dest_warp_id": "2"
     },
     {
       "x": 100,
       "y": 40,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE4",
+      "dest_map": "MAP_SUSQUEHANNA_CAVE_2F",
       "dest_warp_id": "0"
     },
     {
       "x": 87,
       "y": 12,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE4",
+      "dest_map": "MAP_SUSQUEHANNA_CAVE_3F",
       "dest_warp_id": "0"
     },
     {

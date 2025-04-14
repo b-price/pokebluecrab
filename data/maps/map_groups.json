@@ -513,7 +513,14 @@
     "TerraCave_End",
     "AlteringCave",
     "MeteorFalls_StevensCave",
-    "SusquehannaCave_1F"
+    "SusquehannaCave_1F",
+    "MarleyStation_1F",
+    "MarleyStation_2F",
+    "MarleyStation_Elevator",
+    "SusquehannaCave_2F",
+    "SusquehannaCave_3F",
+    "SusquehannaCave_B1F",
+    "SusquehannaCave_Underwater"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

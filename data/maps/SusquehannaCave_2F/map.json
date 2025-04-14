@@ -1,0 +1,69 @@
+{
+  "id": "MAP_SUSQUEHANNA_CAVE_2F",
+  "name": "SusquehannaCave_2F",
+  "layout": "LAYOUT_SUSQUEHANNA_CAVE_2F",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "requires_flash": true,
+  "weather": "WEATHER_SHADE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 41,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_SUSQUEHANNA_CAVE_1F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 38,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_SUSQUEHANNA_CAVE_1F",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 59,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_SUSQUEHANNA_CAVE_1F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_SUSQUEHANNA_CAVE_1F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 9,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_SUSQUEHANNA_CAVE_3F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 51,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE4",
+      "dest_warp_id": "3"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

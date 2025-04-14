@@ -856,7 +856,7 @@ const struct Tileset gTileset_Annapolis =
     .palettes = gTilesetPalettes_Annapolis,
     .metatiles = gMetatiles_Annapolis,
     .metatileAttributes = gMetatileAttributes_Annapolis,
-    .callback = NULL,
+    .callback = InitTilesetAnim_Annapolis,
 };
 
 const struct Tileset gTileset_Baltimore =
@@ -878,7 +878,7 @@ const struct Tileset gTileset_KentIsland =
     .palettes = gTilesetPalettes_KentIsland,
     .metatiles = gMetatiles_KentIsland,
     .metatileAttributes = gMetatileAttributes_KentIsland,
-    .callback = NULL,
+    .callback = InitTilesetAnim_Pacifidlog,
 };
 
 const struct Tileset gTileset_Frederick =
@@ -889,7 +889,7 @@ const struct Tileset gTileset_Frederick =
     .palettes = gTilesetPalettes_Frederick,
     .metatiles = gMetatiles_Frederick,
     .metatileAttributes = gMetatileAttributes_Frederick,
-    .callback = NULL,
+    .callback = InitTilesetAnim_Slateport,
 };
 
 const struct Tileset gTileset_Cumberland =
@@ -988,7 +988,7 @@ const struct Tileset gTileset_DC =
     .palettes = gTilesetPalettes_DC,
     .metatiles = gMetatiles_DC,
     .metatileAttributes = gMetatileAttributes_DC,
-    .callback = NULL,
+    .callback = InitTilesetAnim_EverGrande,
 };
 
 const struct Tileset gTileset_BuildingPBC =
@@ -1065,5 +1065,16 @@ const struct Tileset gTileset_BaltimoreGym =
     .palettes = gTilesetPalettes_BaltimoreGym,
     .metatiles = gMetatiles_BaltimoreGym,
     .metatileAttributes = gMetatileAttributes_BaltimoreGym,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_MarleyStation =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_MarleyStation,
+    .palettes = gTilesetPalettes_MarleyStation,
+    .metatiles = gMetatiles_MarleyStation,
+    .metatileAttributes = gMetatileAttributes_MarleyStation,
     .callback = NULL,
 };

@@ -273,3 +273,6 @@ const u16 gMetatileAttributes_PokemonCenterPBC[] = INCBIN_U16("data/tilesets/sec
 
 const u16 gMetatiles_BaltimoreGym[] = INCBIN_U16("data/tilesets/secondary/baltimore_gym/metatiles.bin");
 const u16 gMetatileAttributes_BaltimoreGym[] = INCBIN_U16("data/tilesets/secondary/baltimore_gym/metatile_attributes.bin");
+
+const u16 gMetatiles_MarleyStation[] = INCBIN_U16("data/tilesets/secondary/marley_station/metatiles.bin");
+const u16 gMetatileAttributes_MarleyStation[] = INCBIN_U16("data/tilesets/secondary/marley_station/metatile_attributes.bin");

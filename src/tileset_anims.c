@@ -43,6 +43,7 @@ static void TilesetAnim_MauvilleGym(u16);
 static void TilesetAnim_BikeShop(u16);
 static void TilesetAnim_BattlePyramid(u16);
 static void TilesetAnim_BattleDome(u16);
+static void TilesetAnim_Annapolis(u16);
 static void QueueAnimTiles_General_Flower(u16);
 static void QueueAnimTiles_General_Water(u16);
 static void QueueAnimTiles_General_SandWaterEdge(u16);
@@ -161,15 +162,15 @@ const u16 *const gTilesetAnims_Lavaridge_Steam[] = {
     gTilesetAnims_Lavaridge_Steam_Frame3
 };
 
-const u16 gTilesetAnims_Pacifidlog_LogBridges_Frame0[] = INCBIN_U16("data/tilesets/secondary/pacifidlog/anim/log_bridges/0.4bpp");
-const u16 gTilesetAnims_Pacifidlog_LogBridges_Frame1[] = INCBIN_U16("data/tilesets/secondary/pacifidlog/anim/log_bridges/1.4bpp");
-const u16 gTilesetAnims_Pacifidlog_LogBridges_Frame2[] = INCBIN_U16("data/tilesets/secondary/pacifidlog/anim/log_bridges/2.4bpp");
+const u16 gTilesetAnims_Pacifidlog_LogBridges_Frame0[] = INCBIN_U16("data/tilesets/secondary/kent_island/anim/log_bridges/0.4bpp");
+const u16 gTilesetAnims_Pacifidlog_LogBridges_Frame1[] = INCBIN_U16("data/tilesets/secondary/kent_island/anim/log_bridges/1.4bpp");
+const u16 gTilesetAnims_Pacifidlog_LogBridges_Frame2[] = INCBIN_U16("data/tilesets/secondary/kent_island/anim/log_bridges/2.4bpp");
 
 const u16 *const gTilesetAnims_Pacifidlog_LogBridges[] = {
-    gTilesetAnims_Pacifidlog_LogBridges_Frame0,
-    gTilesetAnims_Pacifidlog_LogBridges_Frame1,
-    gTilesetAnims_Pacifidlog_LogBridges_Frame2,
-    gTilesetAnims_Pacifidlog_LogBridges_Frame1
+        gTilesetAnims_Pacifidlog_LogBridges_Frame0,
+        gTilesetAnims_Pacifidlog_LogBridges_Frame1,
+        gTilesetAnims_Pacifidlog_LogBridges_Frame2,
+        gTilesetAnims_Pacifidlog_LogBridges_Frame1
 };
 
 const u16 gTilesetAnims_Underwater_Seaweed_Frame0[] = INCBIN_U16("data/tilesets/secondary/underwater/anim/seaweed/0.4bpp");
@@ -687,6 +688,13 @@ void InitTilesetAnim_Rustboro(void)
     sSecondaryTilesetAnimCallback = TilesetAnim_Rustboro;
 }
 
+void InitTilesetAnim_Annapolis(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = TilesetAnim_Annapolis;
+}
+
 void InitTilesetAnim_Dewford(void)
 {
     sSecondaryTilesetAnimCounter = 0;
@@ -855,6 +863,14 @@ static void TilesetAnim_Rustboro(u16 timer)
         QueueAnimTiles_Rustboro_WindyWater(timer / 8, 6);
     if (timer % 8 == 7)
         QueueAnimTiles_Rustboro_WindyWater(timer / 8, 7);
+}
+
+static void TilesetAnim_Annapolis(u16 timer)
+{
+    if (timer % 8 == 0)
+    {
+        QueueAnimTiles_Rustboro_Fountain(timer / 8);
+    }
 }
 
 static void TilesetAnim_Dewford(u16 timer)

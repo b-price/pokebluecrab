@@ -1327,3 +1327,17 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route31/scripts.inc"
 
 	.include "data/maps/SusquehannaCave_1F/scripts.inc"
+
+	.include "data/maps/MarleyStation_1F/scripts.inc"
+
+	.include "data/maps/MarleyStation_2F/scripts.inc"
+
+	.include "data/maps/MarleyStation_Elevator/scripts.inc"
+
+	.include "data/maps/SusquehannaCave_2F/scripts.inc"
+
+	.include "data/maps/SusquehannaCave_3F/scripts.inc"
+
+	.include "data/maps/SusquehannaCave_B1F/scripts.inc"
+
+	.include "data/maps/SusquehannaCave_Underwater/scripts.inc"

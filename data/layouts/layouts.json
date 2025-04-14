@@ -5274,12 +5274,82 @@
     {
       "id": "LAYOUT_SUSQUEHANNA_CAVE_1F",
       "name": "SusquehannaCave_1F_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 72,
+      "height": 30,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SusquehannaCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/SusquehannaCave_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MARLEY_STATION_1F",
+      "name": "MarleyStation_1F_Layout",
+      "width": 50,
+      "height": 35,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_MarleyStation",
+      "border_filepath": "data/layouts/MarleyStation_1F/border.bin",
+      "blockdata_filepath": "data/layouts/MarleyStation_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MARLEY_STATION_2F",
+      "name": "MarleyStation_2F_Layout",
+      "width": 50,
+      "height": 35,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_MarleyStation",
+      "border_filepath": "data/layouts/MarleyStation_2F/border.bin",
+      "blockdata_filepath": "data/layouts/MarleyStation_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MARLEY_STATION_ELEVATOR",
+      "name": "MarleyStation_Elevator_Layout",
+      "width": 5,
+      "height": 6,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleFrontier",
+      "border_filepath": "data/layouts/MarleyStation_Elevator/border.bin",
+      "blockdata_filepath": "data/layouts/MarleyStation_Elevator/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUSQUEHANNA_CAVE_2F",
+      "name": "SusquehannaCave_2F_Layout",
+      "width": 72,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SusquehannaCave_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SusquehannaCave_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUSQUEHANNA_CAVE_3F",
+      "name": "SusquehannaCave_3F_Layout",
+      "width": 19,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SusquehannaCave_3F/border.bin",
+      "blockdata_filepath": "data/layouts/SusquehannaCave_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUSQUEHANNA_CAVE_B1F",
+      "name": "SusquehannaCave_B1F_Layout",
+      "width": 48,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SusquehannaCave_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/SusquehannaCave_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUSQUEHANNA_CAVE_UNDERWATER",
+      "name": "SusquehannaCave_Underwater_Layout",
+      "width": 48,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Underwater",
+      "border_filepath": "data/layouts/SusquehannaCave_Underwater/border.bin",
+      "blockdata_filepath": "data/layouts/SusquehannaCave_Underwater/map.bin"
     }
   ]
 }
