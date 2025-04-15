@@ -1341,3 +1341,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SusquehannaCave_B1F/scripts.inc"
 
 	.include "data/maps/SusquehannaCave_Underwater/scripts.inc"
+
+	.include "data/maps/PatapscoForest/scripts.inc"
+
+	.include "data/maps/WarriorMountain_1F/scripts.inc"

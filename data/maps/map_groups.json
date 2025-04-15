@@ -520,7 +520,9 @@
     "SusquehannaCave_2F",
     "SusquehannaCave_3F",
     "SusquehannaCave_B1F",
-    "SusquehannaCave_Underwater"
+    "SusquehannaCave_Underwater",
+    "PatapscoForest",
+    "WarriorMountain_1F"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

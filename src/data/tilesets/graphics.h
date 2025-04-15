@@ -2071,3 +2071,41 @@ const u16 gTilesetPalettes_MarleyStation[][16] =
 };
 
 const u32 gTilesetTiles_MarleyStation[] = INCBIN_U32("data/tilesets/secondary/marley_station/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_PatapscoWoods[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/patapsco_woods/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_PatapscoWoods[] = INCBIN_U32("data/tilesets/secondary/patapsco_woods/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_WarriorCave[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/warrior_cave/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_WarriorCave[] = INCBIN_U32("data/tilesets/secondary/warrior_cave/tiles.4bpp.lz");

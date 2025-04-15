@@ -276,3 +276,9 @@ const u16 gMetatileAttributes_BaltimoreGym[] = INCBIN_U16("data/tilesets/seconda
 
 const u16 gMetatiles_MarleyStation[] = INCBIN_U16("data/tilesets/secondary/marley_station/metatiles.bin");
 const u16 gMetatileAttributes_MarleyStation[] = INCBIN_U16("data/tilesets/secondary/marley_station/metatile_attributes.bin");
+
+const u16 gMetatiles_PatapscoWoods[] = INCBIN_U16("data/tilesets/secondary/patapsco_woods/metatiles.bin");
+const u16 gMetatileAttributes_PatapscoWoods[] = INCBIN_U16("data/tilesets/secondary/patapsco_woods/metatile_attributes.bin");
+
+const u16 gMetatiles_WarriorCave[] = INCBIN_U16("data/tilesets/secondary/warrior_cave/metatiles.bin");
+const u16 gMetatileAttributes_WarriorCave[] = INCBIN_U16("data/tilesets/secondary/warrior_cave/metatile_attributes.bin");
